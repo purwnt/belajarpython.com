@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./belajarpython_theme/**/*.{html,js}", "./docs/**/*.{html,js,md}"],
+  content: ["./src/**/*.{html,js,njk,md}", "./_site/**/*.html"],
   theme: {
     extend: {
       colors: {

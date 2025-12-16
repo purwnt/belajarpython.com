@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="id">
+{% include "head.njk" %}
+
+<body class="overflow-x-hidden">
+  {% include "navbar.njk" %}
+  {% if isHomepage %}
+  {% include "landing.njk" %}
+  {% else %}
+  {% include "content.njk" %}
+  {% endif %}
+  {% include "footer.njk" %}
+  {% include "analytics.njk" %}
+</body>
+
+</html>
