@@ -57,6 +57,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/css/");
   eleventyConfig.addWatchTarget("./tailwind.css");
 
+  // BrowserSync config for live reload on CSS changes
+  eleventyConfig.setServerOptions({
+    watch: ["_site/css/**/*.css"],
+    liveReload: true,
+  });
+
   return {
     dir: {
       input: "src",
