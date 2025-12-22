@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="robots" content="index,follow" />
@@ -68,7 +68,7 @@
         Tutorial Python lengkap untuk pemula hingga mahir. Pelajari dasar pemrograman, data science, machine learning, kecerdasan buatan (AI) dan web development dengan panduan berbahasa Indonesia yang mudah dipahami oleh pemula.
       </p>
       <a class="text-primary-800 flex items-center mx-auto gap-2 font-semibold w-[200px] md:w-[320px] justify-center rounded-full bg-white px-6 md:px-10 pt-1.5 md:pt-3 md:pb-4 pb-2.5 text-sm md:text-xl shadow-lg hover:shadow-md transition-transform duration-200 hover:scale-105"
-        href="/tutorial/apa-itu-python">
+        href="#materi">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-list-icon translate-y-[1px] lucide-list size-4 md:size-6"><path d="M3 5h.01"/><path d="M3 12h.01"/><path d="M3 19h.01"/><path d="M8 5h13"/><path d="M8 12h13"/><path d="M8 19h13"/></svg>
         Lihat Semua Materi
       </a>
@@ -219,7 +219,7 @@
 <!-- Tentang Belajarpython -->
 <section class="py-4 md:py-14">
   <div class="mx-auto max-w-5xl px-4 md:px-10">
-    <div class="bg-white p-2 md:p-16 flex flex-col md:flex-row items-center gap-4 md:gap-20">
+    <div class="bg-white md:p-16 flex flex-col md:flex-row items-center gap-4 md:gap-20">
       <div class="md:w-2/3 order-2 md:order-1 text-left md:text-left">
         <h2 class="text-xl md:text-4xl font-bold text-primary-700 mb-2 md:mb-8">Tentang Belajarpython</h2>
         <div class="space-y-4 md:space-y-6 text-slate-600 text-sm md:text-base leading-relaxed">
@@ -235,7 +235,7 @@
           </p>
         </div>
         <a href="/contribute" class="mt-4 md:mt-6 inline-flex items-center text-primary-500 font-semibold text-sm md:text-base hover:underline">
-          Pelajari Cara Berkontribusi
+          Pelajari cara berkontribusi
           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
@@ -251,113 +251,195 @@
   </div>
 </section>
 
-<!-- Feature -->
-<div class="hidden bg-white md:flex py-24">
-  <div class="mx-auto flex max-w-7xl justify-between px-4 text-center md:px-10">
-    <div class="md:px-4">
-      <img class="mx-auto h-28" src="https://belajarpython.com/img/tutorial-belajarpython.png" alt="" />
-      <h3 class="text-3xl mb-2 font-medium">Ikuti Tutorial</h3>
-      <p>Mulai belajar bahasa pemrograman python dari tingkat dasar dengan tutorial yang dikhususkan untuk pemula agar
-        lebih cepat mempelajari bahasa pemrograman python</p>
+<!-- Daftar Materi -->
+<section id="materi" class="py-6 md:py-14">
+  <div class="mx-auto max-w-4xl px-4 md:px-10">
+    <div class="text-left md:text-center mb-4 md:mb-16">
+      <h2 class="text-xl md:text-4xl font-bold text-primary-800 mb-2 md:mb-4">Daftar Materi Tutorial Python</h2>
+      <p class="text-slate-500 text-sm md:text-lg max-w-2xl mx-auto">
+        Pelajari Python secara terstruktur mulai dari dasar hingga topik tingkat lanjut dengan panduan langkah demi langkah.
+      </p>
     </div>
-    <div class="md:px-4">
-      <img class="mx-auto h-28" src="https://belajarpython.com/img/artikel-belajarpython.png" alt="" />
-      <h3 class="text-3xl mb-2 font-medium">Baca Artikel</h3>
-      <p>Baca artikel terbaru dan terpopuler tentang bahasa pemrograman python dengan beragam topik. Artikel dibuat oleh
-        komunitas dan ditujukan untuk komunitas</p>
-    </div>
-    <div class="md:px-4">
-      <img class="mx-auto h-28" src="https://belajarpython.com/img/forum-belajarpython.png" alt="" />
-      <h3 class="text-3xl mb-2 font-medium">Ajukan Pertanyaan</h3>
-      <p>Ajukan setiap pertanyaan yang anda temui tentang bahasa pemrograman python. Setiap orang di komunitas akan
-        segera menyelesaikan setiap pertanyaan pengguna</p>
+
+    <div class="max-w-4xl text-sm md:text-base mx-auto bg-white border-t border-slate-200 overflow-hidden">
+      <a href="/tutorial/apa-itu-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">01.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Mengenal Apa itu Python</span>
+      </a>
+      <a href="/tutorial/instalasi-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">02.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Panduan Instalasi Python</span>
+      </a>
+      <a href="/tutorial/menjalankan-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">03.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Cara Menjalankan Python</span>
+      </a>
+      <a href="/tutorial/hello-world-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">04.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Membuat Program Hello World</span>
+      </a>
+      <a href="/tutorial/komentar-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">05.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Menggunakan Komentar di Python</span>
+      </a>
+      <a href="/tutorial/tipe-data-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">06.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Memahami Tipe Data Python</span>
+      </a>
+      <a href="/tutorial/variabel-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">07.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Bekerja dengan Variabel</span>
+      </a>
+      <a href="/tutorial/operator-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">08.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Mengenal Operator Python</span>
+      </a>
+      <a href="/tutorial/kondisi-if-else-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">09.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Logika Kondisi If Else</span>
+      </a>
+      <a href="/tutorial/loop-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">10.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Perulangan (Loop) di Python</span>
+      </a>
+      <a href="/tutorial/number-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">11.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Mengolah Data Number</span>
+      </a>
+      <a href="/tutorial/string-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">12.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Manipulasi Data String</span>
+      </a>
+      <a href="/tutorial/list-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">13.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Menggunakan Tipe Data List</span>
+      </a>
+      <a href="/tutorial/tuple-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">14.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Memahami Tipe Data Tuple</span>
+      </a>
+      <a href="/tutorial/dictionary-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">15.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Bekerja dengan Dictionary</span>
+      </a>
+      <a href="/tutorial/tanggal-waktu-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">16.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Mengelola Tanggal & Waktu</span>
+      </a>
+      <a href="/tutorial/fungsi-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">17.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Membuat Fungsi (Function)</span>
+      </a>
+      <a href="/tutorial/modul-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">18.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Menggunakan Modul Python</span>
+      </a>
+      <a href="/tutorial/file-io-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">19.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Membaca & Menulis File</span>
+      </a>
+      <a href="/tutorial/exception-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">20.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Penanganan Error (Exception)</span>
+      </a>
+      <a href="/tutorial/object-class-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">21.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Pemrograman Berorientasi Objek</span>
+      </a>
+      <a href="/tutorial/akses-database-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">22.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Koneksi & Akses Database</span>
+      </a>
+      <a href="/tutorial/networking-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">23.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Dasar Pemrograman Jaringan</span>
+      </a>
+      <a href="/tutorial/pengembangan-web-python" class="group flex items-center py-3 px-2 md:px-8 border-b border-slate-100 hover:bg-yellow-50 transition-colors">
+        <span class="text-slate-400 font-medium md:mr-10 w-8">24.</span>
+        <span class="text-primary-600 font-medium group-hover:text-primary-800 transition-colors">Pengenalan Pengembangan Web</span>
+      </a>
     </div>
   </div>
-</div>
-
-<!-- /Feature -->
+</section>
 
 <!-- Article -->
-<div class="bg-slate-200 py-12 md:py-24">
-  <div class="mx-auto max-w-7xl justify-between px-4 text-center md:px-10">
-    <h2 class="mb-14 text-3xl font-medium">Artikel Pilihan</h2>
-    <div class="mb-10 grid grid-cols-1 gap-6 md:grid-cols-3">
-      <a href="/2023/01/Apa-Beda-Database-SQL-dengan-Postgree">
-        <div class="flex bg-white shadow-lg hover:shadow-md active:shadow md:block">
-          <img class="h-28 md:h-full md:w-full"
-            src="https://belajarpython.com/img/posts/apa-beda-mysql-dengan-postgres-square.png" alt="" />
-          <div class="w-2/3 md:w-full p-2 text-left md:p-10">
-            <span class="text-xs font-bold uppercase text-slate-400">INFO, ADVERTORIAL</span>
-            <h5 class="md:py-2 text-sm sm:text-base md:text-2xl font-medium">Apa Beda Database SQL dengan Postgree?</h5>
+<section class="bg-slate-50 py-8 md:py-24">
+  <div class="mx-auto max-w-7xl px-4 md:px-10">
+    <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-6 md:mb-12 gap-4">
+      <div class="max-w-2xl text-left">
+        <h2 class="text-xl md:text-4xl font-bold text-slate-900 mb-2 md:mb-4">Artikel Pilihan</h2>
+        <p class="text-slate-600 text-sm md:text-lg">Eksplorasi wawasan terbaru, tips, dan tren seputar dunia pemrograman Python dari komunitas.</p>
+      </div>
+      <a href="/article" class="text-primary-600 text-sm md:text-base font-semibold hover:text-primary-700 flex items-center gap-2 transition-colors">
+        Lihat Semua Artikel
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 md:h-5 md:w-5" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+      <!-- Card 1 -->
+      <a href="/2023/01/Apa-Beda-Database-SQL-dengan-Postgree" class="group bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+        <div class="relative aspect-video overflow-hidden">
+          <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            src="https://belajarpython.com/img/apa-beda-mysql-dengan-postgres-square.png" alt="Database SQL vs Postgres" />
+          <div class="absolute top-4 left-4">
+            <span class="bg-white/90 backdrop-blur px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider text-primary-600 shadow-sm">INFO</span>
+          </div>
+        </div>
+        <div class="p-4 md:p-8 flex flex-col flex-grow text-left">
+          <h3 class="text-base md:text-xl font-bold text-slate-900 group-hover:text-primary-600 transition-colors mb-2 md:mb-4 line-clamp-2">Apa Beda Database SQL dengan Postgree?</h3>
+          <div class="mt-auto flex items-center text-slate-400 text-[10px] md:text-sm">
+            <span>Januari 2023</span>
+            <span class="mx-2">•</span>
+            <span>5 min read</span>
           </div>
         </div>
       </a>
-      <a href="/2019/10/membaca-menulis-file-python">
-        <div class="flex bg-white shadow-lg hover:shadow-md active:shadow md:block">
-          <img class="h-28 md:h-full md:w-full"
-            src="https://belajarpython.com/img/posts/membaca-menulis-file-python.jpg" alt="" />
-          <div class="w-2/3 md:w-full p-2 text-left md:p-10">
-            <span class="text-xs font-bold uppercase text-slate-400">TUTORIAL</span>
-            <h5 class="md:py-2 text-sm sm:text-base md:text-2xl font-medium">Tutorial Membaca dan Menulis File Dengan
-              Python</h5>
+
+      <!-- Card 2 -->
+      <a href="/2019/10/membaca-menulis-file-python" class="group bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+        <div class="relative aspect-video overflow-hidden">
+          <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            src="https://belajarpython.com/img/membaca-menulis-file-python.jpg" alt="Membaca Menulis File Python" />
+          <div class="absolute top-4 left-4">
+            <span class="bg-white/90 backdrop-blur px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider text-primary-600 shadow-sm">TUTORIAL</span>
+          </div>
+        </div>
+        <div class="p-4 md:p-8 flex flex-col flex-grow text-left">
+          <h3 class="text-base md:text-xl font-bold text-slate-900 group-hover:text-primary-600 transition-colors mb-2 md:mb-4 line-clamp-2">Tutorial Membaca dan Menulis File Dengan Python</h3>
+          <div class="mt-auto flex items-center text-slate-400 text-[10px] md:text-sm">
+            <span>Oktober 2019</span>
+            <span class="mx-2">•</span>
+            <span>8 min read</span>
           </div>
         </div>
       </a>
-      <a href="/2018/09/3-library-python-terbaik-untuk-data-science">
-        <div class="flex bg-white shadow-lg hover:shadow-md active:shadow md:block">
-          <img class="h-28 md:h-full md:w-full"
-            src="https://belajarpython.com/img/posts/3-library-populer-data-science.png" alt="" />
-          <div class="w-2/3 md:w-full p-2 text-left md:p-10">
-            <span class="text-xs font-bold uppercase text-slate-400">INFO, TUTORIAL</span>
-            <h5 class="md:py-2 text-sm sm:text-base md:text-2xl font-medium">3 Library Python Terpopuler Untuk Data
-              Science</h5>
+
+      <!-- Card 3 -->
+      <a href="/2018/09/3-library-python-terbaik-untuk-data-science" class="group bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+        <div class="relative aspect-video overflow-hidden">
+          <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            src="https://belajarpython.com/img/3-library-populer-data-science.png" alt="Data Science Libraries" />
+          <div class="absolute top-4 left-4">
+            <span class="bg-white/90 backdrop-blur px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider text-primary-600 shadow-sm">TUTORIAL</span>
           </div>
         </div>
-      </a>
-      <a href="/2018/09/5-tren-teratas-tentang-python-minggu-ini-di-github">
-        <div class="flex bg-white shadow-lg hover:shadow-md active:shadow md:block">
-          <img class="h-28 md:h-full md:w-full"
-            src="https://belajarpython.com/img/posts/5-weekly-trending-sept-2018.png" alt="" />
-          <div class="w-2/3 md:w-full p-2 text-left md:p-10">
-            <span class="text-xs font-bold uppercase text-slate-400">INFO</span>
-            <h5 class="md:py-2 text-sm sm:text-base md:text-2xl font-medium">5 Tren Teratas Tentang Python Minggu ini di
-              Github</h5>
-          </div>
-        </div>
-      </a>
-      <a href="/2018/09/python-melesat-di-daftar-bahasa-pemrograman-yang-paling-populer">
-        <div class="flex bg-white shadow-lg hover:shadow-md active:shadow md:block">
-          <img class="h-28 md:h-full md:w-full"
-            src="https://belajarpython.com/img/posts/python-bahasa-pemrograman-populer.png" alt="" />
-          <div class="w-2/3 md:w-full p-2 text-left md:p-10">
-            <span class="text-xs font-bold uppercase text-slate-400">BERITA</span>
-            <h5 class="md:py-2 text-sm sm:text-base md:text-2xl font-medium">Python Melesat di Daftar Bahasa Pemrograman
-              Yang Paling Populer</h5>
-          </div>
-        </div>
-      </a>
-      <a href="/2018/05/sastrawi-natural-language-processing-bahasa-indonesia">
-        <div class="flex bg-white shadow-lg hover:shadow-md active:shadow md:block">
-          <img class="h-28 md:h-full md:w-full" src="https://belajarpython.com/img/posts/sastrawi.png" alt="" />
-          <div class="w-2/3 md:w-full p-2 text-left md:p-10">
-            <span class="text-xs font-bold uppercase text-slate-400">TUTORIAL</span>
-            <h5 class="md:py-2 text-sm sm:text-base md:text-2xl font-medium">Sastrawi, Natural Language Processing Mudah
-              Dengan Python</h5>
+        <div class="p-4 md:p-8 flex flex-col flex-grow text-left">
+          <h3 class="text-base md:text-xl font-bold text-slate-900 group-hover:text-primary-600 transition-colors mb-2 md:mb-4 line-clamp-2">3 Library Python Terpopuler Untuk Data Science</h3>
+          <div class="mt-auto flex items-center text-slate-400 text-[10px] md:text-sm">
+            <span>September 2018</span>
+            <span class="mx-2">•</span>
+            <span>10 min read</span>
           </div>
         </div>
       </a>
     </div>
-    <a href="/article"
-      class=" text-primary-500 flex items-center justify-center text-center text-base font-bold uppercase">
-      <span>Lihat Semua Artikel</span>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="ml-2 h-6 w-6">
-        <path fill-rule="evenodd"
-          d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
-          clip-rule="evenodd" />
-      </svg>
-    </a>
   </div>
-</div>
+</section>
+
+<!-- /Article -->
 
 <!-- /Article -->
   
