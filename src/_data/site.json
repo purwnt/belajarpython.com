@@ -1,5 +1,8 @@
 {
-  "name": "Belajarpython – Situs Open Source Tutorial Pemrograman Python Bahasa Indonesia",
+  "name": "Belajarpython.com",
+  "tagline": "Tutorial Python Bahasa Indonesia Lengkap untuk Pemula sampai Mahir",
   "author": "Purwanto",
-  "url": "https://belajarpython.com"
+  "url": "https://belajarpython.com",
+  "description": "Belajar Python gratis dengan tutorial lengkap berbahasa Indonesia. Panduan pemrograman Python dari dasar hingga mahir: data science, machine learning, AI, dan web development. Dipercaya 100+ kampus & perusahaan di Indonesia.",
+  "keywords": "belajar python, tutorial python, python indonesia, belajar python pemula, kursus python gratis, pemrograman python, python untuk data science, python machine learning"
 }

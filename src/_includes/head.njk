@@ -1,37 +1,137 @@
 <head>
   <meta charset="UTF-8" />
-  <meta name="robots" content="index,follow" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-  <meta name="author" content="Belajarpython" />
-  <meta name="language" content="Indonesia" />
-  <meta name="description" content="{% if description %}{{ description }}{% else %}Belajarpython adalah situs terbuka (open source) yang dikembangkan oleh developer untuk developer. Semua orang baik dari kalangan developer, mahasiswa, pengajar, bahkan anak kecil yang baru mempelajari bahasa pemrograman python bisa ikut memberikan kontribusinya{% endif %}">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <meta name="author" content="Belajarpython.com" />
+  <meta name="language" content="id" />
+  <meta name="geo.region" content="ID" />
+  <meta name="geo.placename" content="Indonesia" />
+  <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="{{ site.keywords }}" />
   <meta name="google-site-verification" content="" />
-  <meta property="og:url" content="" />
-  <meta property="og:title" content="{% if title %}{{ title }} - {% endif %}{{ site.name }}" />
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:site_name" content="{{ site.name }}" />
+  <meta property="og:title" content="{% if isHomepage %}Tutorial Pemrograman Python Bahasa Indonesia | Dasar Sampai Advance {{ site.name }}{% elif title %}{{ title }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}" />
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="Situs Open Source Tutorial Pemrograman Python" />
-  <meta property="og:image" content="" />
-  <meta name="twitter:description" content="Situs Open Source Tutorial Pemrograman Python" />
-  <meta name="twitter:image:src" content="" />
-  <meta name="twitter:title" content="{% if title %}{{ title }} - {% endif %}{{ site.name }}" />
+  <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:image" content="{{ site.url }}/img/logos/logo-belajarpython-square.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Belajarpython.com - Tutorial Python Bahasa Indonesia" />
+  
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="Belajarpython.com" />
-  <meta name="twitter:creator" content="Belajarpython" />
+  <meta name="twitter:site" content="@belajarpythoncom" />
+  <meta name="twitter:creator" content="@belajarpythoncom" />
+  <meta name="twitter:title" content="{% if isHomepage %}Tutorial Pemrograman Python Bahasa Indonesia{% elif title %}{{ title }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}" />
+  <meta name="twitter:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="twitter:image" content="{{ site.url }}/img/logos/logo-belajarpython-square.png" />
+  
+  <!-- Favicon & Theme -->
   <link rel="icon" href="/img/favicon.png" />
+  <link rel="apple-touch-icon" href="/img/favicon.png" />
   <meta name="theme-color" content="#2a5880" />
+  <meta name="msapplication-TileColor" content="#2a5880" />
+  
+  <!-- Verification -->
   <meta name="msvalidate.01" content="8CFBF57F61ECFF6C84740E37B7FCDE15" />
+  
+  <!-- Styles -->
   <link rel="stylesheet" type="text/css" href="/css/base.css?v=1.2.8" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark-reasonable.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" integrity="sha512-D9gUyxqja7hBtkWpPWGt9wfbfaMGVt9gnyCvYa+jojwwPHLCzUm5i8rpk7vD7wNee9bA35eYIjobYPaQuKS1MQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>hljs.initHighlightingOnLoad();</script>
+  
+  <!-- Structured Data / Schema.org -->
+  {% if isHomepage %}
   <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
+      "@context": "https://schema.org",
       "@type": "WebSite",
-      "url": "https://belajarpython.com",
-      "name": "{% if title %}{{ title }}{% endif %}",
-      "description": "{{ site.name }}"
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}",
+      "name": "{{ site.name }}",
+      "description": "{{ site.description }}",
+      "inLanguage": "id-ID",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{{ site.url }}/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
     }
   </script>
-  <title>{% if title %}{{ title }} - {% endif %}{{ site.name }}</title>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "@id": "{{ site.url }}/#organization",
+      "name": "{{ site.name }}",
+      "url": "{{ site.url }}",
+      "logo": "{{ site.url }}/img/logos/logo-belajarpython-square.png",
+      "description": "{{ site.tagline }}",
+      "foundingDate": "2015",
+      "sameAs": [
+        "https://github.com/belajarpythoncom"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "Indonesia"
+      },
+      "teaches": [
+        "Python Programming",
+        "Data Science",
+        "Machine Learning",
+        "Web Development"
+      ]
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "Course",
+          "position": 1,
+          "name": "Tutorial Python Dasar",
+          "description": "Pelajari dasar-dasar pemrograman Python dari instalasi hingga konsep OOP",
+          "provider": {
+            "@type": "Organization",
+            "name": "{{ site.name }}"
+          },
+          "educationalLevel": "Beginner",
+          "inLanguage": "id",
+          "isAccessibleForFree": true
+        }
+      ]
+    }
+  </script>
+  {% else %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "{{ title }}",
+      "description": "{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}",
+      "url": "{{ site.url }}{{ page.url }}",
+      "inLanguage": "id-ID",
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.name }}",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}/img/logos/logo-belajarpython-square.png"
+        }
+      }
+    }
+  </script>
+  {% endif %}
+  
+  <title>{% if isHomepage %}Belajarpython - Tutorial Pemrograman Python Bahasa Indonesia Terbaru 2026{% elif isTutorial %}{{ title }} - Tutorial Lengkap Dasar Sampai Advance{% elif title %}{{ title }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
 </head>
