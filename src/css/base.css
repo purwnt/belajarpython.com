@@ -794,6 +794,10 @@ video {
   width: max-content;
 }
 
+.min-w-0 {
+  min-width: 0px;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -1446,14 +1450,9 @@ main .tutorial a:hover {
 }
 
 main pre {
-  width: 92vw;
-  overflow-x: scroll;
-}
-
-@media only screen and (min-width: 768px) {
-  main pre {
-    width: 100%;
-  }
+  max-width: 100%;
+  overflow-x: auto;
+  border-radius: 0.5rem;
 }
 
 main code {

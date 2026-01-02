@@ -50,7 +50,55 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection("articles", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/[0-9][0-9][0-9][0-9]/**/*.md");
+    const items = collectionApi.getFilteredByGlob("src/[0-9][0-9][0-9][0-9]/**/*.md");
+
+    function getSortTime(item) {
+      if (item?.data?.date) {
+        const parsed = new Date(item.data.date);
+        if (!Number.isNaN(parsed.getTime())) return parsed.getTime();
+      }
+
+      const url = item?.url || "";
+      const match = url.match(/^\/(\d{4})\/(\d{2})\//);
+      if (match) {
+        const year = match[1];
+        const month = match[2];
+        const parsed = new Date(`${year}-${month}-01T00:00:00Z`);
+        if (!Number.isNaN(parsed.getTime())) return parsed.getTime();
+      }
+
+      return 0;
+    }
+
+    // Newest first
+    return items.sort((a, b) => getSortTime(b) - getSortTime(a));
+  });
+
+  // Format "Januari 2026" from URL like /2026/01/slug/
+  eleventyConfig.addFilter("getMonthYearFromUrl", function(url) {
+    if (!url) return "";
+    const match = url.match(/^\/(\d{4})\/(\d{2})\//);
+    if (!match) return "";
+
+    const year = match[1];
+    const month = match[2];
+
+    const monthNames = {
+      "01": "Januari",
+      "02": "Februari",
+      "03": "Maret",
+      "04": "April",
+      "05": "Mei",
+      "06": "Juni",
+      "07": "Juli",
+      "08": "Agustus",
+      "09": "September",
+      "10": "Oktober",
+      "11": "November",
+      "12": "Desember",
+    };
+
+    return `${monthNames[month] || month} ${year}`;
   });
 
   // Watch targets

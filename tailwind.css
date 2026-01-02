@@ -38,15 +38,11 @@ main .tutorial a:hover {
 }
 
 main pre {
-  width: 92vw;
-  overflow-x: scroll;
+  max-width: 100%;
+  overflow-x: auto;
+  border-radius: 0.5rem;
 }
 
-@media only screen and (min-width: 768px) {
-  main pre {
-    width: 100%;
-  }
-}
 
 main code {
   margin-bottom: 15px;
