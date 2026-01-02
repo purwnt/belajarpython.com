@@ -33,15 +33,13 @@ Berikut ini adalah beberapa contoh dari Tipe data Number pada Python :
 Pada Python Anda bisa mengkonversi tipe data dengan menggunakan fungsi. Dibawah ini adalah beberapa fungsi untuk mengkonversi tipe data number Python.
 
 - `int(x)`
-  untuk meng-konversi x menjadi plain integer.
-- `long(x)`
-  untuk meng-konversi x menjadi long integer.
+  untuk meng-konversi x menjadi integer.
 - `float(x)`
   untuk meng-konversi x menjadi floating point number.
 - `complex(x)`
-  untuk meng-konversi x menjadi complex number dengna real part x dan imaginary part zero.
+  untuk meng-konversi x menjadi complex number dengan real part x dan imaginary part zero.
 - `complex(x, y)`
-  untuk meng-konversi x dan y menjadi complex number dengan real part x dan imaginary part y. x dan numeric expressions y.
+  untuk meng-konversi x dan y menjadi complex number dengan real part x dan imaginary part y.
 
 ### Fungsi Matematika Python
 
@@ -50,11 +48,10 @@ Pada bahasa pemrograman Python terdapat fungsi untuk melakukan perhitungan matem
 | Nama         | Penggunaan        | Penjelasan                                                                                                                                                |
 | ------------ | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Absolute     | `abs(x)`          | Nilai absolut dari x:(positive) jarak antara x and 0.                                                                                                     |
-| Ceiling      | `ceil(x)`         | Ceiling dari x: integer terkecil yang kurang dari x.                                                                                                      |
-| Cmp          | `cmp(x, y)`       | -1 if x < y, 0 if x == y, or 1 if x > y. Tidak berlaku lagi dengan Python 3. Sebaliknya gunakan return (x>y)-(x                                           |
+| Ceiling      | `ceil(x)`         | Ceiling dari x: integer terkecil yang lebih besar dari x.                                                                                                 |
 | Eksponen     | `exp(x)`          | Nilai eksponen dari x: ex                                                                                                                                 |
 | Fabs         | `fabs(x)`         | Nilai absolut dari x.                                                                                                                                     |
-| Floor        | `floor(x)`        | Nilai dasar dari x: internet terbesar tidak lebih besar dari x.                                                                                           |
+| Floor        | `floor(x)`        | Nilai dasar dari x: integer terbesar yang tidak lebih besar dari x.                                                                                       |
 | Log          | `log(x)`          | Logaritma dari x, untuk x > 0.                                                                                                                            |
 | Log 10       | `log10(x)`        | Basis 10 logaritma dari x, untuk x > 0.                                                                                                                   |
 | Max          | `max(x1, x2,...)` | Argumen terbesar: Nilai terdekat dengan tak terhingga positif                                                                                             |

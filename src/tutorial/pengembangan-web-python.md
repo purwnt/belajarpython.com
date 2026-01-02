@@ -17,7 +17,7 @@ Untuk membuat website dengan menggunakan Python sebagai bahasa pemrogramanya, ca
 
 ### Web Framework Python
 
-Framework pengembangan web pada python yang paling populer dan mudah dipelajari ada Django dan Flask
+Framework pengembangan web pada python yang paling populer dan mudah dipelajari ada Django, Flask, dan FastAPI.
 
 #### Flask
 
@@ -64,39 +64,53 @@ Django adalah kerangka kerja Python Web tingkat tinggi yang menangani banyak ker
 Kelebihan Framework Django dibanding yang lain adalah pada segi skalabilitas. Framework ini cocok untuk pengembangan aplikasi besar.
 
 Untuk menginstal Django jalankan perintah dibawah ini :
-`pip install Django==1.7.1`
+`pip install Django`
 
-Setelah terinstal, buat direktori /django-hello/ untuk aplikasi Anda. Dalam direktori ini buat file hello.py dengan code dibawah ini:
+Setelah terinstal, buat project Django baru:
 
-```python
-#!/usr/bin/env python
-import sys
-from django.conf import settings
-from django.conf.urls import patterns
-from django.http import HttpResponse
-from django.core.management import execute_from_command_line
-
-settings.configure(
-DEBUG=True,
-SECRET_KEY='asecretkey',
-ROOT_URLCONF=sys.modules[__name__],
-)
-
-def index(request):
-return HttpResponse('Hello, World')
-
-urlpatterns = patterns('',
-(r'^hello/$', index),
-)
-
-if __name__ == "__main__":
-execute_from_command_line(sys.argv)
+```bash
+django-admin startproject myproject
+cd myproject
+python manage.py runserver
 ```
 
-Jalankan server dengan perintah :
-`python hello.py runserver`
+Buka [http://127.0.0.1:8000/](http://127.0.0.1:8000/) di browser dan Anda akan melihat halaman selamat datang Django.
 
-Server HTTP Django akan mulai dan jika Anda membuka [http://127.0.0.1:8000/hello/](http://127.0.0.1:8000/hello/)
+#### FastAPI
+
+FastAPI adalah framework web modern dan cepat (high-performance) untuk membangun API dengan Python 3.7+ berdasarkan standard Python type hints. FastAPI sangat populer di tahun 2025 karena performanya yang tinggi dan kemudahan penggunaannya.
+
+Kelebihan FastAPI:
+
+- Sangat cepat: Performa setara dengan NodeJS dan Go
+- Cepat untuk coding: Meningkatkan kecepatan development 2-3x lipat
+- Lebih sedikit bugs: Mengurangi sekitar 40% human errors
+- Dokumentasi otomatis: Swagger UI dan ReDoc otomatis tersedia
+- Berbasis standard: OpenAPI dan JSON Schema
+
+Instalasi FastAPI:
+`pip install fastapi uvicorn`
+
+Hello World dengan FastAPI:
+
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
+
+@app.get("/items/{item_id}")
+def read_item(item_id: int, q: str = None):
+    return {"item_id": item_id, "q": q}
+```
+
+Jalankan server dengan perintah:
+`uvicorn main:app --reload`
+
+Buka [http://127.0.0.1:8000/](http://127.0.0.1:8000/) untuk melihat hasilnya, dan [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) untuk dokumentasi API interaktif.
 
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/pengembangan-web-python.md)
 

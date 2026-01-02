@@ -85,6 +85,61 @@ elif(hari_ini == "Minggu"):
 
 Pada contoh diatas, jika program dijalankan maka akan mencetak string `"Saya akan libur"`.
 
+### Match Case (Python 3.10+)
+
+Mulai Python 3.10, tersedia fitur **Structural Pattern Matching** dengan `match-case` yang mirip dengan `switch-case` di bahasa pemrograman lain. Ini sangat berguna untuk menggantikan rangkaian `elif` yang panjang.
+
+```python
+# Contoh penggunaan match-case (Python 3.10+)
+
+hari_ini = "Minggu"
+
+match hari_ini:
+    case "Senin" | "Selasa" | "Rabu" | "Kamis" | "Jumat":
+        print("Saya akan kuliah")
+    case "Sabtu":
+        print("Saya akan mengerjakan tugas")
+    case "Minggu":
+        print("Saya akan libur")
+    case _:
+        print("Hari tidak valid")
+```
+
+Pattern matching juga bisa digunakan untuk mencocokkan struktur data yang lebih kompleks:
+
+```python
+# Match dengan struktur data
+def proses_command(command):
+    match command.split():
+        case ["quit"]:
+            print("Keluar dari program")
+        case ["hello", nama]:
+            print(f"Halo, {nama}!")
+        case ["tambah", x, y]:
+            print(f"Hasil: {int(x) + int(y)}")
+        case _:
+            print("Command tidak dikenal")
+
+proses_command("hello Budi")  # Output: Halo, Budi!
+proses_command("tambah 5 3")  # Output: Hasil: 8
+```
+
+### Ternary Operator (Kondisi Satu Baris)
+
+Python juga mendukung penulisan kondisi dalam satu baris yang disebut ternary operator atau conditional expression:
+
+```python
+# Ternary operator
+umur = 20
+status = "Dewasa" if umur >= 18 else "Anak-anak"
+print(status)  # Output: Dewasa
+
+# Contoh lain
+nilai = 85
+hasil = "Lulus" if nilai >= 60 else "Tidak Lulus"
+print(hasil)  # Output: Lulus
+```
+
 ---
 
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/kondisi-if-else-python.md)
