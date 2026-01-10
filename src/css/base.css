@@ -1334,6 +1334,10 @@ video {
   text-transform: capitalize;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .leading-normal {
   line-height: 1.5;
 }
@@ -1430,6 +1434,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity, 1));
+}
+
 .text-opacity-70 {
   --tw-text-opacity: 0.7;
 }
@@ -1444,6 +1453,10 @@ video {
 
 .opacity-40 {
   opacity: 0.4;
+}
+
+.opacity-60 {
+  opacity: 0.6;
 }
 
 .shadow-lg {
