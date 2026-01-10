@@ -1,6 +1,6 @@
 {
   "name": "belajarpython.com",
-  "version": "1.0.0",
+  "version": "1.3.2",
   "description": "Situs Open Source Tutorial Pemrograman Python Bahasa Indonesia",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,11 @@
     "type": "git",
     "url": "git+https://github.com/belajarpythoncom/belajarpython.com.git"
   },
-  "keywords": ["python", "tutorial", "indonesia"],
+  "keywords": [
+    "python",
+    "tutorial",
+    "indonesia"
+  ],
   "author": "Purwanto",
   "license": "MIT",
   "bugs": {
