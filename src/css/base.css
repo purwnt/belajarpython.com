@@ -603,24 +603,16 @@ video {
   top: 0px;
 }
 
-.top-4 {
-  top: 1rem;
-}
-
 .top-24 {
   top: 6rem;
 }
 
+.top-4 {
+  top: 1rem;
+}
+
 .z-10 {
   z-index: 10;
-}
-
-.z-40 {
-  z-index: 40;
-}
-
-.z-50 {
-  z-index: 50;
 }
 
 .z-\[60\] {
@@ -725,10 +717,6 @@ video {
   margin-top: auto;
 }
 
-.mr-0 {
-  margin-right: 0px;
-}
-
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -813,12 +801,12 @@ video {
   height: 270px;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-\[calc\(100vh-6rem\)\] {
   height: calc(100vh - 6rem);
+}
+
+.h-full {
+  height: 100%;
 }
 
 .min-h-screen {
@@ -1065,10 +1053,6 @@ video {
   border-radius: 9999px;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
 .border {
   border-width: 1px;
 }
@@ -1077,21 +1061,12 @@ video {
   border-width: 2px;
 }
 
-.border-x {
-  border-left-width: 1px;
-  border-right-width: 1px;
-}
-
 .border-b {
   border-bottom-width: 1px;
 }
 
 .border-l-2 {
   border-left-width: 2px;
-}
-
-.border-t {
-  border-top-width: 1px;
 }
 
 .border-primary-500 {
@@ -1286,6 +1261,11 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1311,31 +1291,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-1\.5 {
-  padding-top: 0.375rem;
-  padding-bottom: 0.375rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.py-\[3px\] {
-  padding-top: 3px;
-  padding-bottom: 3px;
-}
-
-.py-\[4px\] {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-.py-\[5px\] {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
 .py-\[6px\] {
   padding-top: 6px;
   padding-bottom: 6px;
@@ -1353,6 +1308,10 @@ video {
   padding-bottom: 0.625rem;
 }
 
+.pr-4 {
+  padding-right: 1rem;
+}
+
 .pr-9 {
   padding-right: 2.25rem;
 }
@@ -1367,10 +1326,6 @@ video {
 
 .pt-3 {
   padding-top: 0.75rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
 }
 
 .text-left {
@@ -1400,6 +1355,10 @@ video {
   font-size: 10px;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .text-\[15px\] {
   font-size: 15px;
 }
@@ -1422,10 +1381,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[13px\] {
-  font-size: 13px;
 }
 
 .font-bold {
@@ -1577,12 +1532,12 @@ video {
   opacity: 0.4;
 }
 
-.opacity-60 {
-  opacity: 0.6;
-}
-
 .opacity-50 {
   opacity: 0.5;
+}
+
+.opacity-60 {
+  opacity: 0.6;
 }
 
 .shadow-2xl {
@@ -1803,6 +1758,26 @@ main kbd {
   margin: 0 2px 0 2px;
   background-color: #212529;
   border-radius: 0.2rem;
+}
+
+/* Custom Scrollbar */
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
