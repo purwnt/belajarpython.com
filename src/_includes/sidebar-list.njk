@@ -65,36 +65,27 @@
             <img src="/img/icons/gold.png" alt="Level Advanced" class="w-5 h-5">
                 <span class="font-bold text-slate-700 text-xs uppercase tracking-wider">Level Advanced</span>
             </div>
-            <ul class="leading-normal mb-6 opacity-60">
-                <li class="border-l-2 border-slate-100 py-[6px]">
-                    <span class="font-medium text-slate-400 italic px-4 block text-sm">29. Decorators & Closures</span>
-                </li>
-                <li class="border-l-2 border-slate-100 py-[6px]">
-                    <span class="font-medium text-slate-400 italic px-4 block text-sm">30. Iterators & Generators</span>
-                </li>
-                <li class="border-l-2 border-slate-100 py-[6px]">
-                    <span class="font-medium text-slate-400 italic px-4 block text-sm">31. Context Managers</span>
-                </li>
-                <li class="border-l-2 border-slate-100 py-[6px]">
-                    <span class="font-medium text-slate-400 italic px-4 block text-sm">32. Metaprogramming
-                    </span>
-                </li>
-                <li class="border-l-2 border-slate-100 py-[6px]">
-                    <span class="font-medium text-slate-400 italic px-4 block text-sm">33. Multithreading</span>
-                </li>
-                <li class="border-l-2 border-slate-100 py-[6px]">
-                    <span class="font-medium text-slate-400 italic px-4 block text-sm">34. Asynchronous</span>
-                </li>
-                <li class="border-l-2 border-slate-100 py-[6px]">
-                    <span class="font-medium text-slate-400 italic px-4 block text-sm">35. Design Patterns</span>
-                </li>
-                <li class="border-l-2 border-slate-100 py-[6px]">
-                    <span class="font-medium text-slate-400 italic px-4 block text-sm">36. Unit Testing</span>
-                </li>
-                <li class="border-l-2 border-slate-100 py-[6px]">
-                    <span class="font-medium text-slate-400 italic px-4 block text-sm">37. Memory Management</span>
-                </li>
-            </ul>
+<ul class="leading-normal mb-6">
+  {% set items = [
+    ['decorator-python', '29. Decorators & Closures'],
+    ['iterators-generators-python', '30. Iterators & Generators'],
+    ['context-managers-python', '31. Context Managers'],
+    ['metaprogramming-python', '32. Metaprogramming'],
+    ['multithreading-multiprocessing-python', '33. Multithreading'],
+    ['async-await-python', '34. Asynchronous'],
+    ['design-patterns-python', '35. Design Patterns'],
+    ['unit-testing-python', '36. Unit Testing'],
+    ['memory-management-python', '37. Memory Management']
+  ] %}
+  {% for slug, label in items %}
+    <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == slug else 'border-slate-200' }}
+            py-[6px]">
+      <a href="/tutorial/{{ slug }}" class="{{ 'font-bold text-primary-500' if currentTutorial == slug else 'font-medium text-slate-400' }} hover:text-primary-500 leading-relaxed px-4 block transition-colors text-sm">
+        {{ label }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
             <!-- Level Professional -->
             <div class="flex items-center gap-2 px-4 py-3 bg-slate-50 rounded mb-2 border border-slate-100">
                 <img src="/img/icons/platinum.png" alt="Level Professional" class="w-5 h-5">

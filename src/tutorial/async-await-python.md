@@ -1,7 +1,7 @@
 ---
 layout: tutorial.njk
 title: Async Await Python
-order: 30
+order: 34
 permalink: /tutorial/async-await-python/
 ---
 
@@ -126,6 +126,8 @@ asyncio.run(main())
 # Total waktu: ~3 detik (bukan 6 detik)
 ```
 
+Perhatikan urutan outputnya! Meskipun kita memulai download `file1` (2 detik) dan `file2` (3 detik) terlebih dahulu, `file3` (1 detik) selesai paling awal. Ini membuktikan bahwa ketiga tugas tersebut benar-benar berjalan secara bersamaan (tidak saling menunggu). Jika ini dijalankan secara synchronous, total waktu akan menjadi 2+3+1 = 6 detik.
+
 #### asyncio.create_task()
 
 Membuat task yang berjalan di background:
@@ -151,6 +153,8 @@ async def main():
 
 asyncio.run(main())
 ```
+
+Dalam contoh di atas, fungsi `background_task` berjalan di latar belakang tanpa menghentikan eksekusi kode utama. Kita menggunakan `create_task` untuk menjadwalkannya, lalu `sleep(3)` di `main` memberikan waktu bagi task tersebut untuk berjalan beberapa kali sebelum akhirnya kita batalkan (cancel).
 
 ### Async Context Manager
 
@@ -180,6 +184,8 @@ async def main():
 
 asyncio.run(main())
 ```
+
+Kode di atas mendemonstrasikan cara membuat objek yang bisa digunakan dengan `async with`. Metode `__aenter__` dipanggil saat masuk blok, dan `__aexit__` saat keluar. Ini sangat berguna untuk mengelola koneksi database atau sesi jaringan yang memerlukan proses *setup* dan *teardown* secara asynchronous.
 
 ### Async Iterator
 
@@ -258,6 +264,8 @@ async def main():
 asyncio.run(main())
 ```
 
+Di sini kita menggunakan `aiohttp` (karena `requests` biasa tidak support async). Kita membuat satu `ClientSession` untuk efisiensi, lalu membuat daftar tugas (`tasks`) untuk setiap URL. `asyncio.gather(*tasks)` kemudian mengeksekusi semua request tersebut sekaligus. Bayangkan jika Anda harus mengambil data dari 100 URL; cara ini akan jauh lebih cepat daripada mengambilnya satu per satu.
+
 ### Timeout dan Error Handling
 
 ```python
@@ -304,6 +312,8 @@ async def main():
 asyncio.run(main())
 ```
 
+Semaphore bertindak seperti penjaga pintu. Di contoh ini, kita punya 10 file yang ingin didownload, tapi `semaphore(3)` hanya mengizinkan 3 download berjalan bersamaan. Segera setelah satu selesai, yang lain baru boleh masuk. Ini sangat penting agar server tujuan tidak memblokir IP kita karena terlalu banyak request dalam satu waktu.
+
 ### Best Practices
 
 1. **Gunakan async untuk I/O bound operations** - HTTP requests, database, file I/O
@@ -348,16 +358,16 @@ async def main():
 
 <div class="mt-8 inline justify-between gap-x-4 md:flex">
   <div class="flex justify-center mb-4 md:mb-0">
-    <a href="/tutorial/type-hints-python" class="text-primary-300 hover:text-primary-300 order-2 flex h-12 items-center rounded-full bg-blue-500 bg-opacity-20 px-8 text-base hover:no-underline md:order-1">
+    <a href="/tutorial/multithreading-multiprocessing-python" class="text-primary-300 hover:text-primary-300 order-2 flex h-12 items-center rounded-full bg-blue-500 bg-opacity-20 px-8 text-base hover:no-underline md:order-1">
       <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z" clip-rule="evenodd" />
       </svg>
-      <span class="-mt-0.5">Type Hints Python</span>
+      <span class="-mt-0.5">Multithreading</span>
     </a>
   </div>
   <div class="order-1 flex justify-center">
-    <a href="/tutorial/lambda-python" class="order-1 flex h-12 items-center rounded-full bg-gradient-to-l from-yellow-500 to-yellow-400 px-8 text-base text-black shadow-xl hover:text-black hover:no-underline hover:shadow md:order-2">
-      <span class="-mt-0.5">Lambda Python</span>
+    <a href="/tutorial/design-patterns-python" class="order-1 flex h-12 items-center rounded-full bg-gradient-to-l from-yellow-500 to-yellow-400 px-8 text-base text-black shadow-xl hover:text-black hover:no-underline hover:shadow md:order-2">
+      <span class="-mt-0.5">Design Patterns</span>
       <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
       </svg>
