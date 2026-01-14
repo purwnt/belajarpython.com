@@ -1,0 +1,74 @@
+---
+layout: tutorial.njk
+title: Pip & Package Management Python
+order: 28
+permalink: /tutorial/pip-package-python/
+---
+
+Pip adalah pengelola paket (package manager) standar untuk Python. Bayangkan Pip seperti "Toko Aplikasi" (App Store atau Play Store) khusus untuk bahasa pemrograman Python, di mana Anda bisa mengunduh dan menginstal ribuan modul tambahan yang dibuat oleh komunitas Python di seluruh dunia.
+
+Bagi pemula, Pip adalah pintu gerbang menuju kehebatan Python. Misalnya, jika Anda ingin membuat grafik yang indah, melakukan analisis data yang rumit, atau bahkan membuat situs web, Anda tidak perlu menulis semuanya dari nol. Anda cukup menggunakan Pip untuk menginstal "paket" yang sudah jadi, dan Anda bisa langsung fokus membangun aplikasi Anda.
+
+### Apa itu Package?
+
+Package atau Paket berisi semua file yang Anda butuhkan untuk suatu modul. Modul adalah pustaka kode Python yang dapat Anda sertakan dalam proyek Anda.
+
+### Memeriksa apakah Pip sudah terinstal
+
+Pip biasanya sudah terinstal bersamaan dengan Python. Untuk memeriksa apakah pip sudah terinstal, jalankan perintah berikut di terminal:
+
+```bash
+pip --version
+```
+
+### Menginstal Paket
+
+Menginstal paket sangatlah mudah. Cukup gunakan perintah `install` diikuti nama paketnya. Contoh kita akan menginstal paket populer bernama `requests`:
+
+```bash
+pip install requests
+```
+
+### Menggunakan Paket
+
+Setelah paket terinstal, Anda dapat menggunakannya di kode Python Anda dengan perintah `import`:
+
+```python
+import requests
+
+x = requests.get('https://belajarpython.com')
+print(x.status_code)
+```
+
+### Melihat Daftar Paket yang Terinstal
+
+Gunakan perintah `list` untuk melihat semua paket yang sudah ada di sistem atau environment Anda:
+
+```bash
+pip list
+```
+
+### Menghapus Paket
+
+Jika Anda tidak lagi membutuhkan suatu paket, Anda dapat menghapusnya:
+
+```bash
+pip uninstall requests
+```
+
+### Mencari Paket di PyPI
+
+Semua paket Python dikelola secara terpusat di situs [PyPI (Python Package Index)](https://pypi.org/). Anda bisa mencari ribuan paket bermanfaat di sana sebelum menginstalnya menggunakan Pip.
+
+> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/pip-package-python.md)
+
+<div class="mt-8 inline justify-between gap-x-4 md:flex">
+  <div class="flex justify-center mb-4 md:mb-0">
+    <a href="/tutorial/virtual-environment-python" class="text-primary-300 hover:text-primary-300 order-2 flex h-12 items-center rounded-full bg-blue-500 bg-opacity-20 px-8 text-base hover:no-underline md:order-1">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z" clip-rule="evenodd" />
+      </svg>
+      <span class="-mt-0.5">Virtual Environment</span>
+    </a>
+  </div>
+</div>

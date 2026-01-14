@@ -9,6 +9,11 @@ JSON (JavaScript Object Notation) adalah format populer yang digunakan untuk men
 
 Bagi pemula, bayangkan JSON seperti "daftar belanja" yang sangat rapi dan mudah dibaca baik oleh manusia maupun komputer. Karena bentuknya yang mirip dengan *Dictionary* di Python, mempelajari JSON akan terasa familiar dan sangat berguna ketika Anda mulai membangun aplikasi yang terhubung dengan layanan web atau menyimpan konfigurasi aplikasi.
 
+Dibawah ini adalah struktur dan penjelasan singkat tentang objek JSON:
+
+![Illustration Penjelasan Struktur JSON](/img/belajar-json-pada-python.jpg)
+
+
 Python memiliki paket bawaan bernama `json`, yang dapat digunakan untuk bekerja dengan data JSON.
 
 ### Mengimpor Modul JSON
@@ -90,6 +95,29 @@ x = {
 # gunakan parameter indent untuk menentukan jumlah indentasi:
 print(json.dumps(x, indent=4))
 ```
+
+Anda juga dapat memberikan parameter tambahan untuk mengatur format output:
+
+```python
+import json
+
+x = {
+  "nama": "Budi",
+  "umur": 30,
+  "menikah": True,
+  "anak": ("Rani","Dodi"),
+  "peliharaan": None,
+  "mobil": [
+    {"model": "Toyota Avanza", "tahun": 2020},
+    {"model": "Honda Civic", "tahun": 2021}
+  ]
+}
+
+# gunakan parameter indent untuk menentukan jumlah indentasi:
+print(json.dumps(x, indent=4, sort_keys=True))
+```
+
+JSON ini sangat sering digunakan saat Anda mengambil data dari internet (API) atau saat aplikasi saling bertukar informasi. Jadi, penting untuk memahami bagaimana bekerja dengan JSON di Python.
 
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/json-python.md)
 

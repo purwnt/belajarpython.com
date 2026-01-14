@@ -46,7 +46,10 @@
     ['akses-database-python', '22. Akses Database'],
     ['networking-python', '23. Networking'],
     ['pengembangan-web-python', '24. Pengembangan Web'],
-    ['regex-python', '25. RegEx']
+    ['regex-python', '25. RegEx'],
+    ['json-python', '26. JSON Data'],
+    ['virtual-environment-python', '27. Virtual Environment'],
+    ['pip-package-python', '28. Pip & Package']
   ] %}
             {% for slug, label in items %}
                 <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == slug else 'border-slate-200' }}
@@ -56,16 +59,6 @@
                     </a>
                 </li>
             {% endfor %}
-            <!-- Coming Soon Menengah -->
-            <li class="border-l-2 border-slate-100 py-[6px] opacity-50">
-                <span class="font-medium text-slate-400 italic px-4 block text-sm">26. JSON Object</span>
-            </li>
-            <li class="border-l-2 border-slate-100 py-[6px] opacity-50">
-                <span class="font-medium text-slate-400 italic px-4 block text-sm">27. Virtual Environments</span>
-            </li>
-            <li class="border-l-2 border-slate-100 py-[6px] opacity-50">
-                <span class="font-medium text-slate-400 italic px-4 block text-sm">28. Pip & Package</span>
-            </li>
         </ul>
         <!-- Level Advanced -->
         <div class="flex items-center gap-2 px-4 py-3 bg-slate-50 rounded mb-2 border border-slate-100">
