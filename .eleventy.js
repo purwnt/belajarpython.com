@@ -1,13 +1,13 @@
 const markdownIt = require("markdown-it");
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   // Markdown configuration
   const md = markdownIt({
     html: true,
     breaks: false,
     linkify: true
   });
-  
+
   eleventyConfig.setLibrary("md", md);
 
   // Pass through copy for static assets
@@ -20,20 +20,24 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/img/favicon.png": "favicon.png" });
 
   // Custom filter to get page slug from URL
-  eleventyConfig.addFilter("getSlug", function(url) {
+  eleventyConfig.addFilter("getSlug", function (url) {
     if (!url) return "";
     const parts = url.split('/').filter(p => p);
     return parts[parts.length - 1] || "";
   });
 
+  eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+    return new Date(dateObj).toISOString().split('T')[0];
+  });
+
   // Custom filter to check if URL starts with a path
-  eleventyConfig.addFilter("startsWith", function(url, path) {
+  eleventyConfig.addFilter("startsWith", function (url, path) {
     if (!url) return false;
     return url.startsWith(path);
   });
 
   // Custom filter for getting tutorial name from URL
-  eleventyConfig.addFilter("getTutorialName", function(url) {
+  eleventyConfig.addFilter("getTutorialName", function (url) {
     if (!url) return "";
     const parts = url.split('/').filter(p => p);
     if (parts[0] === 'tutorial' && parts.length > 1) {
@@ -43,13 +47,19 @@ module.exports = function(eleventyConfig) {
   });
 
   // Collections
-  eleventyConfig.addCollection("tutorials", function(collectionApi) {
+  eleventyConfig.addCollection("tutorials", function (collectionApi) {
     return collectionApi.getFilteredByGlob("src/tutorial/*.md").sort((a, b) => {
       return (a.data.order || 0) - (b.data.order || 0);
     });
   });
 
-  eleventyConfig.addCollection("articles", function(collectionApi) {
+  eleventyConfig.addCollection("enTutorials", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("src/en/tutorial/*.md").sort((a, b) => {
+      return (a.data.order || 0) - (b.data.order || 0);
+    });
+  });
+
+  eleventyConfig.addCollection("articles", function (collectionApi) {
     const items = collectionApi.getFilteredByGlob("src/[0-9][0-9][0-9][0-9]/**/*.md");
 
     function getSortTime(item) {
@@ -75,7 +85,7 @@ module.exports = function(eleventyConfig) {
   });
 
   // Format "Januari 2026" from URL like /2026/01/slug/
-  eleventyConfig.addFilter("getMonthYearFromUrl", function(url) {
+  eleventyConfig.addFilter("getMonthYearFromUrl", function (url) {
     if (!url) return "";
     const match = url.match(/^\/(\d{4})\/(\d{2})\//);
     if (!match) return "";
