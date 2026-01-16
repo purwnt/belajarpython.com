@@ -7,6 +7,8 @@ permalink: /tutorial/menjalankan-python/
 
 Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa menggunakan _shell_, terminal atau menggunakan [IDE (Integrated Development Environment)](http://www.belajarpython.com/2015/05/integrated-development-environment-ide.html). Di bawah ini adalah langkah-langkah menjalankan Python dengan cara yang paling mudah.
 
+> **Catatan**: Anda juga bisa langsung menjalankan dan mengedit kode Python di setiap cuplikan (_snippet_) yang ada di website ini secara interaktif! Klik tombol "Run" pada setiap blok kode.
+
 ### Linux
 
 1. Buka terminal <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>
