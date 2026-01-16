@@ -7,6 +7,8 @@ permalink: /en/tutorial/running-python/
 
 To run Python, there are many ways you can do it. You can use a _shell_, terminal or use an [IDE (Integrated Development Environment)](http://www.belajarpython.com/2015/05/integrated-development-environment-ide.html). Below are the steps to run Python in the easiest way.
 
+> **Note**: You can also run and edit Python code directly on this website in every code snippet interactively! Look for the "Run" button on the code blocks.
+
 ### Linux
 
 1. Open terminal <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>
