@@ -34,10 +34,9 @@ Hanya dengan menuliskan kode print seperti yang diatas, anda sudah bisa mencetak
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/pengertian-python.md)
 
 <div class="flex justify-center md:justify-end mt-8">
-    <a href="/tutorial/instalasi-python"
-        class="flex h-12 items-center rounded-full bg-gradient-to-l from-secondary-500 to-secondary-400 px-8 text-base text-black hover:text-black shadow-xl hover:shadow hover:no-underline">
+    <a href="/tutorial/instalasi-python" class="flex h-10 md:h-12 items-center rounded-full bg-gradient-to-l from-secondary-500 to-secondary-400 px-4 md:px-8 text-sm md:text-base text-black hover:text-black shadow-xl hover:shadow hover:no-underline">
         <span class="-mt-0.5">Instalasi Python</span>
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 md:h-5 md:w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
         </svg>
     </a>
