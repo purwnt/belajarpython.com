@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="{{ lang if lang else 'id' }}">
   {% set isTutorial = true %}
   {% include "head.njk" %}
   <body class="overflow-x-hidden">
@@ -14,7 +14,7 @@
         duration-300 md:hidden overflow-y-auto custom-scrollbar shadow-2xl">
       <div class="p-4 md:p-6">
         <div class="flex justify-between items-center mb-6">
-          <h2 class="text-xl font-bold text-primary-500">Materi Tutorial</h2>
+          <h2 class="text-xl font-bold text-primary-500">{{ 'Tutorial Material' if lang == 'en' else 'Materi Tutorial' }}</h2>
           <button id="close-tutorial-sidebar" class="text-slate-400 hover:text-slate-600 focus:outline-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewbox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
@@ -22,7 +22,11 @@
           </button>
         </div>
         <div class="mobile-sidebar-content">
-          {% include "sidebar-list.njk" %}
+          {% if lang == 'en' %}
+            {% include "sidebar-list-en.njk" %}
+          {% else %}
+            {% include "sidebar-list.njk" %}
+          {% endif %}
         </div>
       </div>
     </div>
