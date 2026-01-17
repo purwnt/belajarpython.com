@@ -1,9 +1,12 @@
 <!-- Level Dasar -->
-<div class="flex items-center gap-2 px-4 py-3 bg-slate-50 mb-2 border border-slate-100">
+<div
+    class="flex items-center gap-2 px-4 py-3 bg-slate-50 mb-2 border border-slate-100 relative"
+    data-level-header="dasar">
     <img src="/img/icons/bronze.png" alt="Level Dasar" class="w-5 h-5">
         <span class="font-bold text-slate-700 text-xs uppercase tracking-wider">Level Dasar</span>
+        <div class="progress-circle-container absolute right-4 top-1/2 -translate-y-1/2"></div>
     </div>
-    <ul class="leading-normal mb-6">
+    <ul class="leading-normal mb-6" data-level-list="dasar">
         {% set items = [
     ['apa-itu-python', '1. Pendahuluan'],
     ['instalasi-python', '2. Instalasi'],
@@ -24,8 +27,8 @@
     ['fungsi-python', '17. Fungsi']
   ] %}
         {% for slug, label in items %}
-            <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == slug else 'border-slate-100' }}
-                    py-[6px]">
+            <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == slug else 'border-slate-100' }} py-[6px]
+                    relative group">
                 <a href="/tutorial/{{ slug }}" class="{{ 'font-bold text-primary-500' if currentTutorial == slug else 'font-medium text-slate-400' }} hover:text-primary-500 leading-relaxed px-4 block transition-colors text-sm">
                     {{ label }}
                 </a>
@@ -33,11 +36,14 @@
         {% endfor %}
     </ul>
     <!-- Level Menengah -->
-    <div class="flex items-center gap-2 px-4 py-3 bg-slate-50 rounded mb-2 border border-slate-100">
+    <div
+        class="flex items-center gap-2 px-4 py-3 bg-slate-50 rounded mb-2 border border-slate-100 relative"
+        data-level-header="menengah">
         <img src="/img/icons/silver.png" alt="Level Menengah" class="w-5 h-5">
-            <span class="font-bold text-slate-700 text-xs uppercase tracking-wider">Level Menengah</span>
+            <span class="font-bold text-slate-700 text-xs uppercase tracking-wider">Menengah</span>
+            <div class="progress-circle-container absolute right-4 top-1/2 -translate-y-1/2"></div>
         </div>
-        <ul class="leading-normal mb-6">
+        <ul class="leading-normal mb-6" data-level-list="menengah">
             {% set items = [
     ['modul-python', '18. Modul'],
     ['file-io-python', '19. File I/O'],
@@ -52,8 +58,8 @@
     ['pip-package-python', '28. Pip & Package']
   ] %}
             {% for slug, label in items %}
-                <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == slug else 'border-slate-200' }}
-                        py-[6px]">
+                <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == slug else 'border-slate-200' }} py-[6px]
+                        relative group">
                     <a href="/tutorial/{{ slug }}" class="{{ 'font-bold text-primary-500' if currentTutorial == slug else 'font-medium text-slate-400' }} hover:text-primary-500 leading-relaxed px-4 block transition-colors text-sm">
                         {{ label }}
                     </a>
@@ -61,12 +67,15 @@
             {% endfor %}
         </ul>
         <!-- Level Advanced -->
-        <div class="flex items-center gap-2 px-4 py-3 bg-slate-50 rounded mb-2 border border-slate-100">
+        <div
+            class="flex items-center gap-2 px-4 py-3 bg-slate-50 rounded mb-2 border border-slate-100 relative"
+            data-level-header="advanced">
             <img src="/img/icons/gold.png" alt="Level Advanced" class="w-5 h-5">
-                <span class="font-bold text-slate-700 text-xs uppercase tracking-wider">Level Advanced</span>
+                <span class="font-bold text-slate-700 text-xs uppercase tracking-wider">Advanced</span>
+                <div class="progress-circle-container absolute right-4 top-1/2 -translate-y-1/2"></div>
             </div>
-<ul class="leading-normal mb-6">
-  {% set items = [
+            <ul class="leading-normal mb-6" data-level-list="advanced">
+                {% set items = [
     ['decorator-python', '29. Decorators & Closures'],
     ['iterators-generators-python', '30. Iterators & Generators'],
     ['context-managers-python', '31. Context Managers'],
@@ -77,19 +86,19 @@
     ['unit-testing-python', '36. Unit Testing'],
     ['memory-management-python', '37. Memory Management']
   ] %}
-  {% for slug, label in items %}
-    <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == slug else 'border-slate-200' }}
-            py-[6px]">
-      <a href="/tutorial/{{ slug }}" class="{{ 'font-bold text-primary-500' if currentTutorial == slug else 'font-medium text-slate-400' }} hover:text-primary-500 leading-relaxed px-4 block transition-colors text-sm">
-        {{ label }}
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+                {% for slug, label in items %}
+                    <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == slug else 'border-slate-200' }}
+                            py-[6px]">
+                        <a href="/tutorial/{{ slug }}" class="{{ 'font-bold text-primary-500' if currentTutorial == slug else 'font-medium text-slate-400' }} hover:text-primary-500 leading-relaxed px-4 block transition-colors text-sm">
+                            {{ label }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
             <!-- Level Professional -->
             <div class="flex items-center gap-2 px-4 py-3 bg-slate-50 rounded mb-2 border border-slate-100">
                 <img src="/img/icons/platinum.png" alt="Level Professional" class="w-5 h-5">
-                    <span class="font-bold text-slate-700 text-xs uppercase tracking-wider">Level Professional</span>
+                    <span class="font-bold text-slate-700 text-xs uppercase tracking-wider">Professional</span>
                 </div>
                 <ul class="leading-normal mb-6 opacity-60">
                     <li class="border-l-2 border-slate-100 py-[6px]">
