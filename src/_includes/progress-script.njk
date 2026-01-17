@@ -70,7 +70,9 @@
         `;
     }
     function createCardProgress(percentage) { // Larger version for card
-      const size = 60;
+      const size = window.innerWidth < 768
+        ? 48
+        : 60;
       const radius = 15.9155;
       const offset = 100 - percentage;
       let color = '#ef4444'; // Red < 40
