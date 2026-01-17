@@ -9,17 +9,20 @@ module.exports = {
     extend: {
       colors: {
         primary: {
+          100: '#e0f2fe',
+          200: '#bae6fd',
           300: '#3776ab',
           400: '#316997',
           500: '#2a5880',
+          600: '#1d3f5b', // added
           700: '#1d3f5b',
           800: '#1c3a55',
           900: '#1e2933'
         },
-        secondary: { 
+        secondary: {
           400: '#ffdf76',
           500: '#fdd03f',
-          700: '#e2b215', 
+          700: '#e2b215',
         }
       },
       animation: {

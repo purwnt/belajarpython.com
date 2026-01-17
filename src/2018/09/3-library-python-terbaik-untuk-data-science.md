@@ -2,6 +2,7 @@
 layout: article.njk
 title: 3 Library Python Terbaik Untuk Data Science
 category: info tutorial
+image: /img/3-library-populer-data-science.png
 permalink: /2018/09/3-library-python-terbaik-untuk-data-science/
 ---
 

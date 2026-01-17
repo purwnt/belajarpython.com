@@ -3,7 +3,7 @@ layout: article.njk
 title: Membuat Chatbot Sederhana dengan Python dan OpenAI API
 date: 2026-01-03
 category: AI & ML
-image: /img/logos/logo-belajarpython-square.png
+image: /img/membuat-chatbot-sederhana-dengan-python-chatgpt.webp
 permalink: /2026/01/membuat-chatbot-python-openai/
 ---
 

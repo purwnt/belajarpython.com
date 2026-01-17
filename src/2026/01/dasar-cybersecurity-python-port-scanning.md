@@ -3,7 +3,7 @@ layout: article.njk
 title: "Dasar Cybersecurity dengan Python: Scanning Port Sederhana"
 date: 2026-01-03
 category: SECURITY
-image: /img/logos/logo-belajarpython-square.png
+image: /img/belajar-dasar-cybersecurity-hacking-keamanan-website-port.webp
 permalink: /2026/01/dasar-cybersecurity-python-port-scanning/
 ---
 

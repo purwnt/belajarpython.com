@@ -2,6 +2,7 @@
 layout: article.njk
 title: Python Melesat di Daftar Bahasa Pemrograman Yang Paling Populer
 category: berita
+image: /img/python-bahasa-pemrograman-populer.png
 permalink: /2018/09/python-melesat-di-daftar-bahasa-pemrograman-yang-paling-populer/
 ---
 

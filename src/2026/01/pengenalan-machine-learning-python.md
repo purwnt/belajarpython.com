@@ -3,7 +3,7 @@ layout: article.njk
 title: Pengenalan Machine Learning dengan Python untuk Pemula
 date: 2026-01-03
 category: AI & ML
-image: /img/logos/logo-belajarpython-square.png
+image: /img/pengenalan-maching-learning-python-pemula.webp
 permalink: /2026/01/pengenalan-machine-learning-python/
 ---
 

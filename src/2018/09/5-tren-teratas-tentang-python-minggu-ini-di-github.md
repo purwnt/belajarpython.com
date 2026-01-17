@@ -2,6 +2,7 @@
 layout: article.njk
 title: 5 Tren Teratas Tentang Python Minggu ini di Github
 category: info
+image: /img/5-weekly-trending-sept-2018.png
 permalink: /2018/09/5-tren-teratas-tentang-python-minggu-ini-di-github/
 ---
 

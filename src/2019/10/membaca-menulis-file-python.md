@@ -2,6 +2,7 @@
 layout: article.njk
 title: Membaca dan Menulis File dengan Python
 category: tutorial
+image: /img/membaca-menulis-file-python.jpg
 permalink: /2019/10/membaca-menulis-file-python/
 ---
 

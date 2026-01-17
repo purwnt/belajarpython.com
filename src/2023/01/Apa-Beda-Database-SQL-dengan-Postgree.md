@@ -1,6 +1,8 @@
 ---
 layout: article.njk
 title: Apa Beda Database SQL dengan Postgree?
+category: info
+image: /img/apa-beda-mysql-dengan-postgres-lanscape.png
 permalink: /2023/01/Apa-Beda-Database-SQL-dengan-Postgree/
 ---
 
