@@ -44,7 +44,7 @@
     class="flex items-center gap-2 px-4 py-3 bg-slate-50 rounded mb-2 border border-slate-100 relative"
     data-level-header="intermediate">
     <img src="/img/icons/silver.png" alt="Intermediate Level" class="w-5 h-5">
-      <span class="font-bold text-slate-700 text-xs uppercase tracking-wider">Intermediate Level</span>
+      <span class="font-bold text-slate-700 text-xs uppercase tracking-wider">Intermediate</span>
       <div class="progress-circle-container absolute right-4 top-1/2 -translate-y-1/2"></div>
     </div>
     <ul class="leading-normal mb-6" data-level-list="intermediate">
@@ -71,22 +71,25 @@
       {% endfor %}
     </ul>
     <!-- Advanced Level -->
-    <div class="flex items-center gap-2 px-4 py-3 bg-slate-50 rounded mb-2 border border-slate-100">
+    <div
+      class="flex items-center gap-2 px-4 py-3 bg-slate-50 rounded mb-2 border border-slate-100 relative"
+      data-level-header="advanced">
       <img src="/img/icons/gold.png" alt="Advanced Level" class="w-5 h-5">
-        <span class="font-bold text-slate-700 text-xs uppercase tracking-wider">Advanced Level</span>
+        <span class="font-bold text-slate-700 text-xs uppercase tracking-wider">Advanced</span>
+        <div class="progress-circle-container absolute right-4 top-1/2 -translate-y-1/2"></div>
       </div>
-      <ul class="leading-normal mb-6">
+      <ul class="leading-normal mb-6" data-level-list="advanced">
         {% set items = [
     ['python-type-hints', '33. Type Hints'],
-    ['python-decorators', '34. Decorators & Closures'],
-    ['python-iterators-generators', '35. Iterators & Generators'],
+    ['python-decorators', '34. Decorators, Closures'],
+    ['python-iterators-generators', '35. Iterators, Generators'],
     ['python-context-managers', '36. Context Managers'],
     ['python-metaprogramming', '37. Metaprogramming'],
     ['python-multithreading-multiprocessing', '38. Multithreading'],
     ['python-async-await', '39. Asynchronous'],
     ['python-design-patterns', '40. Design Patterns'],
     ['python-unit-testing', '41. Unit Testing'],
-    ['python-memory-management', '42. Memory Management']
+    ['python-memory-management', '42. Memory Handling']
   ] %}
         {% for slug, label in items %}
           <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == slug else 'border-slate-200' }}

@@ -51,10 +51,10 @@
     ['object-class-python', '21. Object & Class'],
     ['akses-database-python', '22. Akses Database'],
     ['networking-python', '23. Networking'],
-    ['pengembangan-web-python', '24. Pengembangan Web'],
+    ['pengembangan-web-python', '24. Web Dev'],
     ['regex-python', '25. RegEx'],
     ['json-python', '26. JSON Data'],
-    ['virtual-environment-python', '27. Virtual Environment'],
+    ['virtual-environment-python', '27. Virtual Env'],
     ['pip-package-python', '28. Pip & Package']
   ] %}
             {% for slug, label in items %}
@@ -76,15 +76,15 @@
             </div>
             <ul class="leading-normal mb-6" data-level-list="advanced">
                 {% set items = [
-    ['decorator-python', '29. Decorators & Closures'],
-    ['iterators-generators-python', '30. Iterators & Generators'],
+    ['decorator-python', '29. Decorators, Closures'],
+    ['iterators-generators-python', '30. Iterators, Generators'],
     ['context-managers-python', '31. Context Managers'],
     ['metaprogramming-python', '32. Metaprogramming'],
     ['multithreading-multiprocessing-python', '33. Multithreading'],
     ['async-await-python', '34. Asynchronous'],
     ['design-patterns-python', '35. Design Patterns'],
     ['unit-testing-python', '36. Unit Testing'],
-    ['memory-management-python', '37. Memory Management']
+    ['memory-management-python', '37. Memory Handling']
   ] %}
                 {% for slug, label in items %}
                     <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == slug else 'border-slate-200' }}
