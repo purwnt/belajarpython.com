@@ -5,6 +5,8 @@ order: 6
 permalink: /tutorial/tipe-data-python/
 ---
 
+<img src="/img/tutorial/6-tipe-data-pada-python.webp" alt="Tipe Data pada Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Tipe data adalah suatu media atau memori pada komputer yang digunakan untuk menampung informasi.
 
 Python sendiri mempunyai tipe data yang cukup unik bila kita bandingkan dengan bahasa pemrograman yang lain.
@@ -68,7 +70,9 @@ print(type(biodata)) #fungsi untuk mengecek jenis tipe data. akan tampil <class 
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/tipe-data-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/tipe-data-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

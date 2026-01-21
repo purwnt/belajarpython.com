@@ -60,7 +60,9 @@ pip uninstall requests
 
 Semua paket Python dikelola secara terpusat di situs [PyPI (Python Package Index)](https://pypi.org/). Anda bisa mencari ribuan paket bermanfaat di sana sebelum menginstalnya menggunakan Pip.
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/pip-package-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/pip-package-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

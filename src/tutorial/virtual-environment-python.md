@@ -85,7 +85,9 @@ Di dunia kerja profesional, Virtual Environment bukan lagi sebuah pilihan, melai
 
 Selain itu, Virtual Environment memudahkan proses *deployment*. Saat aplikasi siap dikirim ke server produksi, Anda cukup memberikan daftar paket (biasanya dalam file `requirements.txt`) yang ada di dalam lingkungan virtual tersebut. Tanpa alat ini, memindahkan kode dari komputer pengembang ke server akan menjadi mimpi buruk teknis yang penuh dengan error akibat perbedaan versi library.
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/virtual-environment-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/virtual-environment-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

@@ -112,7 +112,9 @@ Jalankan server dengan perintah:
 
 Buka [http://127.0.0.1:8000/](http://127.0.0.1:8000/) untuk melihat hasilnya, dan [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) untuk dokumentasi API interaktif.
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/pengembangan-web-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/pengembangan-web-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

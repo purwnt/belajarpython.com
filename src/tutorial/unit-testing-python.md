@@ -141,7 +141,9 @@ pytest --cov=my_project
 - **Mocking** digunakan untuk mengisolasi unit dari dependensi eksternal.
 - Biasakan menulis test sebelum kode (TDD - Test Driven Development) atau minimal bersamaan dengan kode.
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/src/tutorial/unit-testing-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/unit-testing-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

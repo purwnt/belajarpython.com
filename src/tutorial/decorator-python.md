@@ -141,7 +141,9 @@ def dashboard():
 - **Closure**: Fungsi yang mengingat state dari lingkup luarnya.
 - **Decorator**: Cara elegan menggunakan Closure untuk memodifikasi fungsi.
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/src/tutorial/decorator-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/decorator-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

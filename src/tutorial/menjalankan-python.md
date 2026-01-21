@@ -5,6 +5,8 @@ order: 3
 permalink: /tutorial/menjalankan-python/
 ---
 
+<img src="/img/tutorial/3-panduan-cepat-menjalankan-python.webp" alt="Cara Menjalankan Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa menggunakan _shell_, terminal atau menggunakan [IDE (Integrated Development Environment)](http://www.belajarpython.com/2015/05/integrated-development-environment-ide.html). Di bawah ini adalah langkah-langkah menjalankan Python dengan cara yang paling mudah.
 
 > **Catatan**: Anda juga bisa langsung menjalankan dan mengedit kode Python di setiap cuplikan (_snippet_) yang ada di website ini secara interaktif! Klik tombol "Run" pada setiap blok kode.
@@ -74,7 +76,9 @@ _atau_
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/menjalankan-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/menjalankan-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

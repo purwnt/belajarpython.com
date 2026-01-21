@@ -119,7 +119,9 @@ print(json.dumps(x, indent=4, sort_keys=True))
 
 JSON ini sangat sering digunakan saat Anda mengambil data dari internet (API) atau saat aplikasi saling bertukar informasi. Jadi, penting untuk memahami bagaimana bekerja dengan JSON di Python.
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/json-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/json-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

@@ -5,6 +5,8 @@ order: 2
 permalink: /tutorial/instalasi-python/
 ---
 
+<img src="/img/tutorial/2-panduan-cepat-instalasi-python-windows-linux-mac.webp" alt="Panduan Instalasi Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Sebelum Anda menggunakan Python, Anda harus menginstalnya terlebih dahulu di sistem operasi komputer Anda. Saat ini Python memiliki versi stabil terbaru yaitu Python **3.13**. Disini kita akan belajar bahasa pemrograman Python menggunakan versi terbaru tersebut.
 
 Cara menginstal python sangat mudah, ikuti panduan dibawah ini. Dibawah adalah panduan cara instal python di platform Linux, Windows dan Mac OS.
@@ -39,7 +41,9 @@ Langkah ini akan menginstal Python di lokasi standar `/usr/local/bin` dan librar
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/instalasi-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/instalasi-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

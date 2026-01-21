@@ -5,6 +5,8 @@ order: 8
 permalink: /tutorial/operator-python/
 ---
 
+<img src="/img/tutorial/8-operator-pada-python.webp" alt="Operator pada Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Operator adalah konstruksi yang dapat memanipulasi nilai dari operan.
 
 Sebagai contoh operasi 3 + 2 = 5. Disini `3` dan `2` adalah operan dan `+` adalah operator.
@@ -152,7 +154,9 @@ Dari semua operator diatas, masing-masing mempunyai urutan prioritas yang nantin
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/operator-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/operator-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

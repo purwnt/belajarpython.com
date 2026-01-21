@@ -121,7 +121,9 @@ with timer():
 - Implementasikan `__enter__` dan `__exit__` untuk membuat resource management sendiri.
 - Gunakan `@contextmanager` untuk cara yang lebih fungsional dan ringkas.
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/src/tutorial/context-managers-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/context-managers-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

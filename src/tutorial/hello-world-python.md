@@ -5,6 +5,8 @@ order: 4
 permalink: /tutorial/hello-world-python/
 ---
 
+<img src="/img/tutorial/4-hello-world-python.webp" alt="Hello World Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Syntax bahasa Python hampir sama dengan bahasa pemrograman pada umumnya seperti Java atau PHP.
 
 ### Syntax Dasar
@@ -27,7 +29,9 @@ Aturan ini berlaku untuk nama variabel ataupun fungsi-fungsi lainnya.
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/hello-world-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/hello-world-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

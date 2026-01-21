@@ -129,7 +129,9 @@ Berikut tabel daftar beberapa modul penting dalam pemrograman Jaringan / Interne
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/networking-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/networking-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

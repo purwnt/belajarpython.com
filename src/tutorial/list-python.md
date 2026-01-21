@@ -5,6 +5,8 @@ order: 13
 permalink: /tutorial/list-python/
 ---
 
+<img src="/img/tutorial/13-tipe-data-list-python.webp" alt="Tipe Data List Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Dalam bahasa pemrograman Python, struktur data yang paling dasar adalah urutan atau lists. Setiap elemen-elemen berurutan akan diberi nomor posisi atau indeksnya. Indeks pertama dalam list adalah nol, indeks kedua adalah satu dan seterusnya.
 
 Python memiliki enam jenis urutan built-in, namun yang paling umum adalah list dan tuple. Ada beberapa hal yang dapat Anda lakukan dengan semua jenis list. Operasi ini meliputi pengindeksan, pengiris, penambahan, perbanyak, dan pengecekan keanggotaan. Selain itu, Python memiliki fungsi built-in untuk menemukan panjang list dan untuk menemukan elemen terbesar dan terkecilnya.
@@ -125,7 +127,9 @@ Python menyertakan methods built-in sebagai berikut
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/list-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/list-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

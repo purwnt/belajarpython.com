@@ -5,6 +5,8 @@ order: 7
 permalink: /tutorial/variabel-python/
 ---
 
+<img src="/img/tutorial/7-variabel-pada-python.webp" alt="Variabel pada Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Variabel adalah lokasi memori yang dicadangkan untuk menyimpan nilai-nilai. Ini berarti bahwa ketika Anda membuat sebuah variabel Anda memesan beberapa ruang di memori. Variabel menyimpan data yang dilakukan selama program dieksekusi, yang nantinya isi dari variabel tersebut dapat diubah oleh operasi - operasi tertentu pada program yang menggunakan variabel.
 
 Variabel dapat menyimpan berbagai macam tipe data. Di dalam pemrograman Python, variabel mempunyai sifat yang dinamis, artinya variabel Python tidak perlu didekralasikan tipe data tertentu dan variabel Python dapat diubah saat program dijalankan.
@@ -55,7 +57,9 @@ print(luas)
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/variabel-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/variabel-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

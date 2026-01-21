@@ -5,6 +5,8 @@ order: 12
 permalink: /tutorial/string-python/
 ---
 
+<img src="/img/tutorial/12-tipe-data-string-python.webp" alt="Tipe Data String Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 String adalah jenis yang paling populer di bahasa pemrograman. Kita bisa membuatnya hanya dengan melampirkan karakter dalam tanda kutip. Python memperlakukan tanda kutip tunggal sama dengan tanda kutip ganda. Membuat string semudah memberi nilai pada sebuah variabel.
 
 Dibawah ini adalah contoh sederhana dari sebuah string pada bahasa pemrograman Python.
@@ -177,7 +179,9 @@ Python menyertakan metode built-in berikut untuk memanipulasi string
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/string-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/string-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>  
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

@@ -41,7 +41,9 @@ Fungsi input([prompt]) setara dengan raw_input, kecuali mengasumsikan bahwa inpu
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/file-io-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/file-io-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

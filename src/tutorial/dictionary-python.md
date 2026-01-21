@@ -5,6 +5,8 @@ order: 15
 permalink: /tutorial/dictionary-python/
 ---
 
+<img src="/img/tutorial/15-tipe-data-dictionary-python.webp" alt="Tipe Data Dictionary Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Dictionary Python berbeda dengan List ataupun Tuple. Karena setiap urutanya berisi key dan value. Setiap key dipisahkan dari value-nya oleh titik dua (:), item dipisahkan oleh koma, dan semuanya tertutup dalam kurung kurawal. Dictionary kosong tanpa barang ditulis hanya dengan dua kurung kurawal, seperti ini: {}.
 
 Nilai kamus bisa berupa tipe apa pun, namun key harus berupa tipe data yang tidak berubah seperti string, angka, atau tupel.
@@ -85,7 +87,9 @@ Python menyertakan method built-in sebagai berikut :
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/dictionary-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/dictionary-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

@@ -289,7 +289,9 @@ Selain itu masih ada beberapa operasi sebagai berikut :
 
 Jika Anda menginginkan dokumentasi yang lebih lengkap dari bahasa pemrograman python, silahkan buka dokumentasi resmi dari Python - [Dokumentasi Lengkap Python](https://docs.python.org/3/)
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/edit/master/docs/tutorial/akses-database-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/akses-database-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

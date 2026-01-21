@@ -5,6 +5,8 @@ order: 16
 permalink: /tutorial/tanggal-waktu-python/
 ---
 
+<img src="/img/tutorial/16-tipe-data-tanggal-waktu-time-python.webp" alt="Tanggal dan Waktu (Date Time) Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Program Python dapat menangani tanggal dan waktu dengan beberapa cara. Konversi antara format tanggal adalah tugas umum untuk komputer. Modul waktu dan kalender Python melacak tanggal dan waktu.
 
 ### Apa itu Tick?
@@ -139,7 +141,9 @@ Berikut adalah daftar fungsi yang tersedia dengan modul kalender:
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/tanggal-waktu-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/tanggal-waktu-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

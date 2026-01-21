@@ -141,7 +141,9 @@ for baris in baca_file_benar("server.log"):
 - **Generator**: Fungsi yang menghasilkan (`yield`) nilai satu per satu (lazy evaluation).
 - Gunakan Generator saat bekerja dengan dataset besar atau stream data tak terbatas.
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/src/tutorial/iterators-generators-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/iterators-generators-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

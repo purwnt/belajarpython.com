@@ -5,6 +5,8 @@ order: 11
 permalink: /tutorial/number-python/
 ---
 
+<img src="/img/tutorial/11-tipe-data-number-pada-python.webp" alt="Tipe Data Number Python - Int, Float, Complex" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Number adalah tipe data Python yang menyimpan nilai numerik. Number adalah tipe data yang tidak berubah. Ini berarti, mengubah nilai dari sejumlah tipe data akan menghasilkan objek yang baru dialokasikan.
 
 Objek Number dibuat saat Anda memberikan nilai pada-nya. Sebagai contoh : `angkaPertama = 1`
@@ -145,7 +147,9 @@ print("Pilihan acak:", random.choice(['Apel', 'Jeruk', 'Mangga']))
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/number-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/number-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

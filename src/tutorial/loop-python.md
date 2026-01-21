@@ -5,6 +5,8 @@ order: 10
 permalink: /tutorial/loop-python/
 ---
 
+<img src="/img/tutorial/10-tutorial-loop-pada-python.webp" alt="Loop Python - While, For, Nested Loop" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Secara umum, pernyataan pada bahasa pemrograman akan dieksekusi secara berurutan. Pernyataan pertama dalam sebuah fungsi dijalankan pertama, diikuti oleh yang kedua, dan seterusnya. Tetapi akan ada situasi dimana Anda harus menulis banyak kode, dimana kode tersebut sangat banyak. Jika dilakukan secara manual maka Anda hanya akan membuang-buang tenaga dengan menulis beratus-ratus bahkan beribu-ribu kode. Untuk itu Anda perlu menggunakan pengulangan di dalam bahasa pemrograman Python.
 
 Di dalam bahasa pemrograman Python pengulangan dibagi menjadi 3 bagian, yaitu :
@@ -79,7 +81,9 @@ print("Good bye!")
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/loop-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/loop-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

@@ -117,7 +117,9 @@ Namun, memahaminya memberikan wawasan mendalam tentang bagaimana Python bekerja 
 - **Metaclass** adalah class dari sebuah Class.
 - Digunakan untuk memodifikasi pembuatan Class secara otomatis.
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/src/tutorial/metaprogramming-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/metaprogramming-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

@@ -5,6 +5,8 @@ order: 9
 permalink: /tutorial/kondisi-if-else-python/
 ---
 
+<img src="/img/tutorial/9-kondisi-if-else-python.webp" alt="Kondisi If Else Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 ### Kondisi If
 
 Pengambilan keputusan (kondisi if) digunakan untuk mengantisipasi kondisi yang terjadi saat jalanya program dan menentukan tindakan apa yang akan diambil sesuai dengan kondisi.
@@ -142,7 +144,9 @@ print(hasil)  # Output: Lulus
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/kondisi-if-else-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/kondisi-if-else-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

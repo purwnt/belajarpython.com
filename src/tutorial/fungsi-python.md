@@ -30,7 +30,9 @@ printme("Dunia sedang dalam masalah")
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/fungsi-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/fungsi-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

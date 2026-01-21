@@ -5,6 +5,8 @@ order: 14
 permalink: /tutorial/tuple-python/
 ---
 
+<img src="/img/tutorial/14-tipe-data-tuple-python.webp" alt="Tipe Data Tuple Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Sebuah tupel adalah urutan objek Python yang tidak berubah. Tupel adalah urutan, seperti daftar. Perbedaan utama antara tupel dan daftarnya adalah bahwa tupel tidak dapat diubah tidak seperti List Python. Tupel menggunakan tanda kurung, sedangkan List Python menggunakan tanda kurung siku.
 
 Membuat tuple semudah memasukkan nilai-nilai yang dipisahkan koma. Secara opsional, Anda dapat memasukkan nilai-nilai yang dipisahkan koma ini di antara tanda kurung juga. Sebagai contoh :
@@ -120,7 +122,9 @@ Python menyertakan fungsi built-in sebagai berikut
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/tuple-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/tuple-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">

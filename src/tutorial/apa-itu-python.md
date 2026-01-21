@@ -5,7 +5,7 @@ order: 1
 permalink: /tutorial/apa-itu-python/
 ---
 
-![Logo Python](/img/729px-Python_logo_and_wordmark.svg.png 'Logo Python')
+<img src="/img/tutorial/1-pendahuluan-python.webp" alt="Pendahuluan Python - Apa itu Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
 
 [Python](https://www.python.org) adalah bahasa pemrograman interpretatif multiguna. Tidak seperti bahasa lain yang susah untuk dibaca dan dipahami, python lebih menekankan pada keterbacaan kode agar lebih mudah untuk memahami sintaks. Hal ini membuat Python sangat mudah dipelajari baik untuk pemula maupun untuk yang sudah menguasai bahasa pemrograman lain.
 
@@ -31,7 +31,10 @@ Hanya dengan menuliskan kode print seperti yang diatas, anda sudah bisa mencetak
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/pengertian-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/apa-itu-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
+
 
 <div class="flex justify-center md:justify-end mt-8">
     <a href="/tutorial/instalasi-python" class="flex h-10 md:h-12 items-center rounded-full bg-gradient-to-l from-secondary-500 to-secondary-400 px-4 md:px-8 text-sm md:text-base text-black hover:text-black shadow-xl hover:shadow hover:no-underline">

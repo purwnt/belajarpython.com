@@ -5,6 +5,8 @@ order: 5
 permalink: /tutorial/komentar-python/
 ---
 
+<img src="/img/tutorial/5-komentar-pada-python.webp" alt="Komentar pada Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Komentar (comment) adalah kode di dalam script Python yang tidak dieksekusi atau tidak dijalankan mesin. Komentar hanya digunakan untuk menandai atau memberikan keterangan tertulis pada script.
 
 Komentar biasa digunakan untuk membiarkan orang lain memahami apa yang dilakukan script. atau untuk mengingatkan kepada programmer sendiri jika suatu saat kembali mengedit script tersebut.
@@ -46,7 +48,9 @@ Saat anda menjalankan script diatas, Anda akan melihat output berupa `Hello Worl
 
 ---
 
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/komentar-python.md)
+> <a href="https://github.com/devmode-id/belajarpython.com/blob/master/src/tutorial/komentar-python.md" target="_blank" rel="noopener noreferrer">
+> Edit tutorial ini
+> </a>
 
 <div class="mt-8 flex justify-between gap-x-2 md:gap-x-4">
   <div class="flex justify-start">
