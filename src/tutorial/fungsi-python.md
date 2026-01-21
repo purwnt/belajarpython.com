@@ -20,10 +20,12 @@ Anda dapat menentukan fungsi untuk menyediakan fungsionalitas yang dibutuhkan. B
 Contoh fungsi
 
 ```python
-def printme( str ):
-"This prints a passed string into this function"
-print (str)
-return
+def printme(str):
+    "This prints a passed string into this function"
+    print(str)
+    return
+
+printme("Dunia sedang dalam masalah")
 ```
 
 ---

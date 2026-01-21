@@ -101,6 +101,48 @@ Modul ini juga mendefinisikan dua konstanta matematika. Berikut adalah daftarnya
 | Pi   | `pi`       | Konstanta Pi matematika |
 | e    | `e`        | Konstanta e matematika  |
 
+### Contoh Penggunaan Number Python
+
+Berikut adalah contoh implementasi kode Python untuk tipe data number:
+
+```python
+import math
+import random
+
+# Definisi variabel dengan tipe data number
+x = 10      # int
+y = 10.5    # float
+z = 1j      # complex
+
+print("Nilai x:", x, "Tipe:", type(x))
+print("Nilai y:", y, "Tipe:", type(y))
+print("Nilai z:", z, "Tipe:", type(z))
+
+# Konversi tipe data
+a = float(x)  # convert int to float
+b = int(y)    # convert float to int
+c = complex(x)# convert int to complex
+
+print("\n--- Hasil Konversi ---")
+print("Int ke Float:", a)
+print("Float ke Int:", b)
+print("Int ke Complex:", c)
+
+# Penggunaan fungsi matematika
+print("\n--- Fungsi Matematika ---")
+print("Nilai absolut -7.25:", abs(-7.25))
+print("Pangkat 4^3:", pow(4, 3))
+print("Akar kuadrat 64:", math.sqrt(64))
+print("Ceiling 1.4:", math.ceil(1.4))
+print("Floor 1.4:", math.floor(1.4))
+print("Nilai PI:", math.pi)
+
+# Penggunaan fungsi random
+print("\n--- Fungsi Random ---")
+print("Angka acak 1-100:", random.randrange(1, 100))
+print("Pilihan acak:", random.choice(['Apel', 'Jeruk', 'Mangga']))
+```
+
 ---
 
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/docs/tutorial/number-python.md)

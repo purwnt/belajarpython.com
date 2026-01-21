@@ -14,11 +14,11 @@ Interval waktu adalah bilangan floating-point dalam satuan detik. Instansi terte
 Dibawah ini adalah contoh penggunanaya.
 
 ```python
-import time; # Digunakan untuk meng-import modul time
+import time  # Digunakan untuk meng-import modul time
 
 ticks = time.time()
-print "Berjalan sejak 12:00am, January 1, 1970:", ticks #python 2
-print ("Berjalan sejak 12:00am, January 1, 1970:", ticks) #untuk python 3 gunakan tanda kurung, print()
+print("Berjalan sejak 12:00am, January 1, 1970:", ticks)
+
 ```
 
 ### Apa itu TimeTuple Python?
@@ -56,10 +56,11 @@ Tuple di atas setara dengan struktur struct_time. Struktur ini memiliki atribut 
 Untuk menerjemahkan waktu instan dari satu detik sejak nilai floating-point ke waktu menjadi tupel waktu, lewati nilai floating-point ke fungsi (mis., Localtime) yang mengembalikan waktu tupel dengan semua sembilan item valid.
 
 ```python
-import time;
+import time
 
 localtime = time.localtime(time.time())
-print "Waktu lokal saat ini :", localtime #python 2
+print("Waktu lokal saat ini:", localtime)
+
 ```
 
 ### Mendapatkan Waktu yang berformat
@@ -67,10 +68,11 @@ print "Waktu lokal saat ini :", localtime #python 2
 Anda dapat memformat kapan saja sesuai kebutuhan Anda, namun metode sederhana untuk mendapatkan waktu dalam format yang mudah dibaca adalah asctime ()
 
 ```python
-import time;
+import time
 
-localtime = time.asctime( time.localtime(time.time()) )
-print "Waktu lokal saat ini :", localtime #python 2
+localtime = time.localtime(time.time())
+print("Waktu lokal saat ini:", localtime)
+
 ```
 
 ### Mendapatkan kalender dalam sebulan
@@ -81,8 +83,9 @@ Modul kalender memberikan berbagai macam metode untuk dimainkan dengan kalender 
 import calendar
 
 cal = calendar.month(2008, 1)
-print "Dibawah ini adalah kalender:" #python 2
-print cal
+print("Dibawah ini adalah kalender:")
+print(cal)
+
 ```
 
 ### Modul time pada Python

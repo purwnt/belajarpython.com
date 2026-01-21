@@ -20,9 +20,11 @@ Python tidak menggunakan tipe karakter titik koma ; Ini diperlakukan sebagai str
 Untuk mengakses substring, gunakan tanda kurung siku untuk mengiris beserta indeks atau indeks untuk mendapatkan substring Anda. Sebagai contoh :
 
 ```python
-name = 'John Doe' message = "John Doe belajar bahasa python di Belajarpython"
-print ("name[0]: ", name[0])
-print ("message[1:4]: ", message[1:4])
+name = 'John Doe'
+message = "John Doe belajar bahasa python di Belajarpython"
+
+print("name[0]:", name[0])
+print("message[1:4]:", message[1:4])
 ```
 
 Bila kode diatas dieksekusi, maka akan menghasilkan hasil sebagai berikut :
