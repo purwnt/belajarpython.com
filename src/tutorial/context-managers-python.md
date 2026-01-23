@@ -5,6 +5,8 @@ order: 31
 permalink: /tutorial/context-managers-python/
 ---
 
+<img src="/img/tutorial/31-context-manager-python.webp" alt="Context Manager Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Context Managers adalah fitur Python yang sangat elegan untuk mengelola resource. Mereka memastikan resource (seperti file, koneksi network, atau database) dibuka dan ditutup dengan benar, bahkan jika terjadi error di tengah proses.
 
 Pernahkah Anda lupa menutup file setelah membukanya? Di Python, hal ini bisa dihindari dengan mudah menggunakan keyword `with`.

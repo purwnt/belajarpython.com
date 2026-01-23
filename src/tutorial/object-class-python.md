@@ -5,6 +5,8 @@ order: 21
 permalink: /tutorial/object-class-python/
 ---
 
+<img src="/img/tutorial/21-belajar-oop-object-class-python.webp" alt="Belajar OOP Object Class Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Python telah menjadi bahasa berorientasi objek sejak bahasa Python sendiri dibuat. Untuk membuat dan menggunakan kelas dan objek pada Python benar-benar mudah. Pada tutorial ini Anda akan dibantu untuk menjadi ahli dalam penggunaan pemrograman berorientasi objek Python.
 
 Jika Anda tidak memiliki pengalaman sebelumnya dengan pemrograman berorientasi objek (OOP), Anda mempelajarinya terlebih dahulu agar Anda dapat memahami konsep dasarnya.

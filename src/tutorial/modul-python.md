@@ -5,6 +5,8 @@ order: 18
 permalink: /tutorial/modul-python/
 ---
 
+<img src="/img/tutorial/18-modul-python.webp" alt="Modul Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Modul memungkinkan Anda mengatur kode Python secara logis. Mengelompokkan kode terkait ke dalam modul membuat kode lebih mudah dipahami dan digunakan. Modul adalah objek Python dengan atribut yang diberi nama yang bisa Anda bind dan dijadikan referensi.
 
 Secara sederhana modul adalah file yang terdiri dari kode Python. Modul dapat mendefinisikan fungsi, kelas dan variabel. Modul juga bisa menyertakan kode yang bisa dijalankan "runable".

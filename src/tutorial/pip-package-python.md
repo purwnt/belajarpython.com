@@ -5,6 +5,8 @@ order: 28
 permalink: /tutorial/pip-package-python/
 ---
 
+<img src="/img/tutorial/28-cara-pip-di-python.webp" alt="Cara Pip di Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Pip adalah pengelola paket (package manager) standar untuk Python. Bayangkan Pip seperti "Toko Aplikasi" (App Store atau Play Store) khusus untuk bahasa pemrograman Python, di mana Anda bisa mengunduh dan menginstal ribuan modul tambahan yang dibuat oleh komunitas Python di seluruh dunia.
 
 Bagi pemula, Pip adalah pintu gerbang menuju kehebatan Python. Misalnya, jika Anda ingin membuat grafik yang indah, melakukan analisis data yang rumit, atau bahkan membuat situs web, Anda tidak perlu menulis semuanya dari nol. Anda cukup menggunakan Pip untuk menginstal "paket" yang sudah jadi, dan Anda bisa langsung fokus membangun aplikasi Anda.

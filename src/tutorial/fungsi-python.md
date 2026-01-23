@@ -5,6 +5,8 @@ order: 17
 permalink: /tutorial/fungsi-python/
 ---
 
+<img src="/img/tutorial/17-belajar-fungsi-python-programming.webp" alt="Belajar Fungsi Python Programming" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Fungsi adalah blok kode terorganisir dan dapat digunakan kembali yang digunakan untuk melakukan sebuah tindakan/action. Fungsi memberikan modularitas yang lebih baik untuk aplikasi Anda dan tingkat penggunaan kode yang tinggi.
 
 ### Mendefinisikan Fungsi Python

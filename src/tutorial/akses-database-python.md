@@ -5,6 +5,8 @@ order: 22
 permalink: /tutorial/akses-database-python/
 ---
 
+<img src="/img/tutorial/22-cara-akses-database-mysql-sql-postgres-python.webp" alt="Cara Akses Database MySQL SQL Postgres Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Standar Interface Python untuk database adalah Python DB-API. Kebanyakan Interface database Python mematuhi standar ini.
 
 Anda bisa memilih database yang tepat untuk aplikasi Anda. API Database Python mendukung berbagai macam server database seperti.

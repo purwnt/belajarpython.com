@@ -5,6 +5,8 @@ order: 26
 permalink: /tutorial/json-python/
 ---
 
+<img src="/img/tutorial/26-belajar-json-python.webp" alt="Belajar JSON Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 JSON (JavaScript Object Notation) adalah format populer yang digunakan untuk menyimpan dan memindahkan data. Dalam dunia pemrograman, JSON sering digunakan saat Anda mengambil data dari internet (API) atau saat aplikasi saling bertukar informasi.
 
 Bagi pemula, bayangkan JSON seperti "daftar belanja" yang sangat rapi dan mudah dibaca baik oleh manusia maupun komputer. Karena bentuknya yang mirip dengan *Dictionary* di Python, mempelajari JSON akan terasa familiar dan sangat berguna ketika Anda mulai membangun aplikasi yang terhubung dengan layanan web atau menyimpan konfigurasi aplikasi.

@@ -5,6 +5,8 @@ order: 19
 permalink: /tutorial/file-io-python/
 ---
 
+<img src="/img/tutorial/19-dasar-dasar-io-python.webp" alt="Dasar Dasar IO Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Disini kita akan belajar semua fungsi dasar I/O yang tersedia pada Python 3. Jika Anda ingin mempelajari lebih detail, lihat dokumentasi standar Python.
 
 ### Print

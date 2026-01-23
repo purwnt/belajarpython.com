@@ -5,6 +5,8 @@ order: 30
 permalink: /tutorial/iterators-generators-python/
 ---
 
+<img src="/img/tutorial/30-belajar-iterators-generators-python.webp" alt="Belajar Iterators Generators Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Dalam dunia Python, Iterators dan Generators adalah kunci efisiensi memori. Mereka memungkinkan Anda untuk memproses data dalam jumlah besar (bahkan tak terbatas) tanpa harus memuat semuanya ke dalam RAM sekaligus.
 
 Bayangkan Anda ingin membaca buku tebal. Iterator memungkinkan Anda membaca halaman per halaman (hanya memuat satu halaman ke memori), alih-alih mencoba menghafal buku setebal 1000 halaman sekaligus.

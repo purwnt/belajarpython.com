@@ -5,6 +5,8 @@ order: 20
 permalink: /tutorial/exception-python/
 ---
 
+<img src="/img/tutorial/20-belajar-exception-python.webp" alt="Belajar Exception Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Python menyediakan dua fitur yang sangat penting untuk menangani kesalahan tak terduga dalam program Python Anda dan menambahkan kemampuan debugging di dalamnya.
 
 - Exception Handling

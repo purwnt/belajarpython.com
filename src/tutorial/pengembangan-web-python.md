@@ -5,6 +5,8 @@ order: 24
 permalink: /tutorial/pengembangan-web-python/
 ---
 
+<img src="/img/tutorial/24-pengembangan-web-python.webp" alt="Pengembangan Web Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Pengembangan web adalah istilah umum untuk membuat konsep, membuat, menyebarkan, dan mengoperasikan aplikasi website dan antarmuka pemrograman aplikasi untuk Website.
 
 ### Penggunaan Python dalam Pengembangan Web

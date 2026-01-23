@@ -5,6 +5,8 @@ order: 23
 permalink: /tutorial/networking-python/
 ---
 
+<img src="/img/tutorial/23-tutorial-networking-python.webp" alt="Tutorial Networking Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Python menyediakan dua tingkat akses ke layanan jaringan. Pada tingkat rendah, Anda dapat mengakses dukungan soket dasar dalam sistem operasi yang mendasarinya, yang memungkinkan Anda untuk mengimplementasikan klien dan server untuk kedua protokol berorientasi koneksi dan tanpa sambungan.
 
 Python juga memiliki pustaka yang menyediakan akses tingkat lebih tinggi ke protokol jaringan tingkat aplikasi tertentu, seperti FTP, HTTP, dan seterusnya.

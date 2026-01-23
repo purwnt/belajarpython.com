@@ -5,6 +5,8 @@ order: 25
 permalink: /tutorial/regex-python/
 ---
 
+<img src="/img/tutorial/25-belajar-regex-pencarian-teks-python.webp" alt="Belajar Regex Pencarian Teks Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Regular Expression atau RegEx adalah urutan karakter yang membentuk pola pencarian. RegEx dapat digunakan untuk memeriksa apakah sebuah string berisi pola pencarian yang ditentukan.
 
 ![Illustration Regular Expressions (RegEx)](/img/regex-illustration.png)

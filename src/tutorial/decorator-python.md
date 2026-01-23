@@ -5,6 +5,8 @@ order: 29
 permalink: /tutorial/decorator-python/
 ---
 
+<img src="/img/tutorial/29-tutorial-decorators-closures-python.webp" alt="Tutorial Decorators Closures Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Decorators dan Closures adalah dua konsep tingkat lanjut di Python yang sangat *powerful*. Meskipun terdengar mengintimidasi, keduanya adalah fondasi dari banyak "sihir" yang terjadi di dalam framework populer seperti Django, Flask, dan FastAPI.
 
 Bayangkan Anda memiliki sebuah kado (fungsi). Anda ingin membungkus kado tersebut dengan kertas kado yang indah (decorator) sebelum memberikannya kepada orang lain. Anda tidak mengubah isi kadonya, tetapi Anda "mempercantik" atau menambah fitur pada kado tersebut dari luar. Itulah inti dari Decorator: memodifikasi perilaku fungsi tanpa mengubah kode aslinya.

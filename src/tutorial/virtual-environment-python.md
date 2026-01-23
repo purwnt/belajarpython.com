@@ -5,6 +5,8 @@ order: 27
 permalink: /tutorial/virtual-environment-python/
 ---
 
+<img src="/img/tutorial/27-tutorial-virtual-environtment-python.webp" alt="Tutorial Virtual Environment Python" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Virtual Environment adalah sebuah ruang kerja terisolasi yang memungkinkan Anda menginstal pustaka (libraries) khusus untuk satu proyek tanpa mengganggu proyek lainnya. Bayangkan ini seperti memiliki beberapa kotak peralatan yang berbeda untuk setiap jenis pekerjaan rumah yang berbeda.
 
 Bagi pemula, Virtual Environment sangat penting karena seringkali satu proyek membutuhkan versi paket yang berbeda dengan proyek lainnya. Tanpa lingkungan virtual, Anda berisiko merusak program yang sudah berjalan karena menginstal paket baru. Dengan menggunakan virtual environment, sistem komputer Anda tetap bersih dan setiap proyek hanya memiliki akses ke peralatan yang benar-benar membutuhkannya.
