@@ -100,38 +100,65 @@
         <img src="/img/icons/platinum.png" alt="Level Professional" class="w-5 h-5">
           <span class="font-bold text-slate-700 text-xs uppercase tracking-wider">Professional</span>
         </div>
-        <ul class="leading-normal mb-6 opacity-60">
+        <ul class="leading-normal mb-6">
           <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == 'data-analytics-pandas-numpy-python'
               else 'border-slate-100' }} py-[6px]">
             <a href="/tutorial/data-analytics-pandas-numpy-python" class="{{ 'font-bold text-primary-500' if currentTutorial == 'data-analytics-pandas-numpy-python' else 'font-medium text-slate-400' }} hover:text-primary-500 leading-relaxed px-4 block transition-colors text-sm">
-              38. Data Analytics & Pandas
+              38. Data Analytics
             </a>
           </li>
-          <li class="border-l-2 border-slate-100 py-[6px]">
-            <span class="font-medium text-slate-400 italic px-4 block text-sm">39. Machine Learning</span>
+          <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == 'implementasi-machine-learning-python'
+              else 'border-slate-100' }} py-[6px]">
+            <a href="/tutorial/implementasi-machine-learning-python" class="{{ 'font-bold text-primary-500' if currentTutorial == 'implementasi-machine-learning-python' else 'font-medium text-slate-400' }} hover:text-primary-500 leading-relaxed px-4 block transition-colors text-sm">
+              39. Machine Learning
+            </a>
           </li>
-          <li class="border-l-2 border-slate-100 py-[6px]">
-            <span class="font-medium text-slate-400 italic px-4 block text-sm">40. Deep Learning</span>
+          <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial ==
+              'deep-learning-tensorflow-pytorch-python' else 'border-slate-100' }} py-[6px]">
+            <a href="/tutorial/deep-learning-tensorflow-pytorch-python" class="{{ 'font-bold text-primary-500' if currentTutorial == 'deep-learning-tensorflow-pytorch-python' else 'font-medium text-slate-400' }} hover:text-primary-500 leading-relaxed px-4 block transition-colors text-sm">
+              40. Deep Learning
+            </a>
           </li>
-          <li class="border-l-2 border-slate-100 py-[6px]">
-            <span class="font-medium text-slate-400 italic px-4 block text-sm">41. Cybersecurity</span>
+          <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == 'cybersecurity-ethical-hacking-python'
+              else 'border-slate-100' }} py-[6px]">
+            <a href="/tutorial/cybersecurity-ethical-hacking-python" class="{{ 'font-bold text-primary-500' if currentTutorial == 'cybersecurity-ethical-hacking-python' else 'font-medium text-slate-400' }} hover:text-primary-500 leading-relaxed px-4 block transition-colors text-sm">
+              41. Cybersecurity
+            </a>
           </li>
-          <li class="border-l-2 border-slate-100 py-[6px]">
-            <span class="font-medium text-slate-400 italic px-4 block text-sm">42. RESTful APIs</span>
+          <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == 'restful-api-fastapi-python' else
+              'border-slate-100' }} py-[6px]">
+            <a href="/tutorial/restful-api-fastapi-python" class="{{ 'font-bold text-primary-500' if currentTutorial == 'restful-api-fastapi-python' else 'font-medium text-slate-400' }} hover:text-primary-500 leading-relaxed px-4 block transition-colors text-sm">
+              42. RESTful APIs
+            </a>
           </li>
-          <li class="border-l-2 border-slate-100 py-[6px]">
-            <span class="font-medium text-slate-400 italic px-4 block text-sm">43. Fullstack Web App</span>
+          <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == 'fullstack-django-python' else
+              'border-slate-100' }} py-[6px]">
+            <a href="/tutorial/fullstack-django-python" class="{{ 'font-bold text-primary-500' if currentTutorial == 'fullstack-django-python' else 'font-medium text-slate-400' }} hover:text-primary-500 leading-relaxed px-4 block transition-colors text-sm">
+              43. Fullstack Web App
+            </a>
           </li>
-          <li class="border-l-2 border-slate-100 py-[6px]">
-            <span class="font-medium text-slate-400 italic px-4 block text-sm">44. Microservices</span>
+          <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == 'microservices-python' else
+              'border-slate-100' }} py-[6px]">
+            <a href="/tutorial/microservices-python" class="{{ 'font-bold text-primary-500' if currentTutorial == 'microservices-python' else 'font-medium text-slate-400' }} hover:text-primary-500 leading-relaxed px-4 block transition-colors text-sm">
+              44. Microservices
+            </a>
           </li>
-          <li class="border-l-2 border-slate-100 py-[6px]">
-            <span class="font-medium text-slate-400 italic px-4 block text-sm">45. Deploying Apps</span>
+          <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == 'deploying-docker-kubernetes-python'
+              else 'border-slate-100' }} py-[6px]">
+            <a href="/tutorial/deploying-docker-kubernetes-python" class="{{ 'font-bold text-primary-500' if currentTutorial == 'deploying-docker-kubernetes-python' else 'font-medium text-slate-400' }} hover:text-primary-500 leading-relaxed px-4 block transition-colors text-sm">
+              45. Deploying Apps
+            </a>
           </li>
-          <li class="border-l-2 border-slate-100 py-[6px]">
-            <span class="font-medium text-slate-400 italic px-4 block text-sm">46. DevOps & CI/CD</span>
+          <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == 'devops-ci-cd-python' else
+              'border-slate-100' }} py-[6px]">
+            <a href="/tutorial/devops-ci-cd-python" class="{{ 'font-bold text-primary-500' if currentTutorial == 'devops-ci-cd-python' else 'font-medium text-slate-400' }} hover:text-primary-500 leading-relaxed px-4 block transition-colors text-sm">
+              46. DevOps & CI/CD
+            </a>
           </li>
-          <li class="border-l-2 border-slate-100 py-[6px]">
-            <span class="font-medium text-slate-400 italic px-4 block text-sm">47. AI MCP</span>
+          <li class="border-l-2 {{ 'border-primary-500 bg-primary-50/30' if currentTutorial == 'ai-mcp-fastmcp-python' else
+              'border-slate-100' }} py-[6px]">
+            <a href="/tutorial/ai-mcp-fastmcp-python" class="{{ 'font-bold text-primary-500' if currentTutorial == 'ai-mcp-fastmcp-python' else 'font-medium text-slate-400' }} hover:text-primary-500 leading-relaxed px-4 block transition-colors text-sm">
+              47. AI MCP
+            </a>
           </li>
         </ul>
