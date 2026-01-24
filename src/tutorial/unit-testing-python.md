@@ -5,6 +5,8 @@ order: 36
 permalink: /tutorial/unit-testing-python/
 ---
 
+<img src="/img/tutorial/36-panduan-unit-testing-python.webp" alt="Panduan Unit Testing dan Mocking Python - unittest dan pytest" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Unit Testing adalah metode pengujian perangkat lunak di mana unit-unit individu dari kode sumber (seperti fungsi, metode, atau class) diuji untuk menentukan apakah mereka berfungsi dengan benar.
 
 "Tapi kode saya sudah jalan!" 

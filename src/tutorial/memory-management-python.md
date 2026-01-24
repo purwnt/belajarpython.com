@@ -5,6 +5,8 @@ order: 37
 permalink: /tutorial/memory-management-python/
 ---
 
+<img src="/img/tutorial/37-memory-handling-python.webp" alt="Tutorial Memory Management Python - Heap Stack dan Garbage Collection" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Salah satu alasan Python begitu populer adalah karena pengembang tidak perlu memusingkan manajemen memori secara manual seperti di C atau C++. Python menangani alokasi dan dealokasi memori secara otomatis.
 
 Namun, memahami bagaimana Python mengelola memori di balik layar sangat penting untuk menulis kode yang efisien, terutama saat menangani data dalam jumlah besar.

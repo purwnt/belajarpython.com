@@ -5,6 +5,8 @@ order: 33
 permalink: /tutorial/multithreading-multiprocessing-python/
 ---
 
+<img src="/img/tutorial/33-multithreading.webp" alt="Tutorial Multithreading vs Multiprocessing Python - Parallelism dan Concurrency" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Dalam komputasi modern, kita sering mendengar istilah *parallelism* dan *concurrency*. Di Python, ada dua cara utama untuk melakukan banyak hal "sekaligus": **Multithreading** dan **Multiprocessing**.
 
 Pemilihan antara keduanya sangat bergantung pada jenis tugas yang Anda kerjakan: apakah **I/O Bound** atau **CPU Bound**.

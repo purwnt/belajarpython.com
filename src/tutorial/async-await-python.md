@@ -5,6 +5,8 @@ order: 34
 permalink: /tutorial/async-await-python/
 ---
 
+<img src="/img/tutorial/34-async-await-python-tutorial.webp" alt="Tutorial Async Await Python - Asynchronous Programming asyncio" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Asynchronous programming dengan `async/await` adalah paradigma pemrograman yang memungkinkan Anda menjalankan operasi secara non-blocking. Ini sangat berguna untuk aplikasi yang melakukan banyak operasi I/O seperti request HTTP, akses database, atau pembacaan file.
 
 ### Mengapa Asynchronous?

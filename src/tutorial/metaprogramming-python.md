@@ -5,6 +5,8 @@ order: 32
 permalink: /tutorial/metaprogramming-python/
 ---
 
+<img src="/img/tutorial/32-metaprogramming.webp" alt="Tutorial Metaprogramming Python - Membuat Class Secara Dinamis" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Metaprogramming adalah konsep di mana kode program dapat memanipulasi kode lainnya (seperti fungsi atau class) pada saat runtime. Singkatnya: **kode yang menulis kode**.
 
 Di Python, ini adalah topik yang sangat dalam dan kompleks, tetapi sangat *powerful* jika digunakan dengan bijak. Salah satu fitur utama metaprogramming di Python adalah **Metaclass**.

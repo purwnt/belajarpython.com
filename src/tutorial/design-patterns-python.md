@@ -5,6 +5,8 @@ order: 35
 permalink: /tutorial/design-patterns-python/
 ---
 
+<img src="/img/tutorial/35-belajar-design-patterns-python.webp" alt="Tutorial Design Patterns Python - Singleton Factory Observer Strategy" class="w-full rounded-lg shadow-md mb-6" loading="lazy">
+
 Design Patterns adalah solusi umum yang dapat digunakan ulang untuk masalah yang sering muncul dalam perancangan perangkat lunak.  Ini bukan kode jadi, melainkan *template* atau panduan cara menyelesaikan masalah.
 
 Di Python, Design Patterns seringkali lebih mudah diimplementasikan (atau bahkan sudah ada secara built-in) dibandingkan bahasa lain seperti Java atau C++.
