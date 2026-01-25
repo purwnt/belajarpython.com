@@ -8,6 +8,7 @@
         {% include "landing-en.njk" %}
       {% else %}
         {% include "landing.njk" %}
+        {% include "community-popup.njk" %}
       {% endif %}
     {% else %}
       {% set currentTutorial = page.url | getTutorialName %}
