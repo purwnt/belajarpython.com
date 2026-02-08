@@ -46,6 +46,11 @@ module.exports = function (eleventyConfig) {
     return "";
   });
 
+  // Custom filter for URL encoding
+  eleventyConfig.addFilter("urlencode", function (str) {
+    return encodeURIComponent(str);
+  });
+
   // Collections
   eleventyConfig.addCollection("tutorials", function (collectionApi) {
     return collectionApi.getFilteredByGlob("src/tutorial/*.md").sort((a, b) => {
