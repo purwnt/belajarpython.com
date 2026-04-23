@@ -2,6 +2,8 @@
   <img src="https://belajarpython.com/img/logo-belajarpython-for-github.png"><br><br>
 </div>
 
+
+
 ---
 
 # [Belajarpython](https://www.belajarpython.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/belajarpythoncom/belajarpython.com/blob/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://belajarpython.com/contribute)
