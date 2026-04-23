@@ -990,6 +990,10 @@ video {
   height: 16rem;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .min-h-0 {
   min-height: 0px;
 }
@@ -1142,6 +1146,10 @@ video {
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
 }
 
 .flex-1 {
@@ -1606,6 +1614,11 @@ video {
 
 .border-white\/30 {
   border-color: rgb(255 255 255 / 0.3);
+}
+
+.border-slate-900 {
+  --tw-border-opacity: 1;
+  border-color: rgb(15 23 42 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#007acc\] {
@@ -2087,6 +2100,11 @@ video {
 .py-\[6px\] {
   padding-top: 6px;
   padding-bottom: 6px;
+}
+
+.py-3\.5 {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
 }
 
 .pb-10 {
