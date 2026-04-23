@@ -758,10 +758,6 @@ video {
   margin-bottom: 3rem;
 }
 
-.-ml-1 {
-  margin-left: -0.25rem;
-}
-
 .-mt-0\.5 {
   margin-top: -0.125rem;
 }
@@ -828,10 +824,6 @@ video {
 
 .mr-2 {
   margin-right: 0.5rem;
-}
-
-.mr-3 {
-  margin-right: 0.75rem;
 }
 
 .mr-5 {
@@ -992,6 +984,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-64 {
+  height: 16rem;
 }
 
 .min-h-0 {
@@ -1346,10 +1342,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-\[20px\] {
-  gap: 20px;
 }
 
 .gap-\[10px\] {
@@ -1844,6 +1836,11 @@ video {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#170101\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 1 1 / var(--tw-bg-opacity, 1));
+}
+
 .bg-opacity-20 {
   --tw-bg-opacity: 0.2;
 }
@@ -1907,6 +1904,12 @@ video {
 .from-yellow-500 {
   --tw-gradient-from: #eab308 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(234 179 8 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#170101\] {
+  --tw-gradient-from: #170101 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(23 1 1 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -2066,11 +2069,6 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.py-3\.5 {
-  padding-top: 0.875rem;
-  padding-bottom: 0.875rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -2115,6 +2113,10 @@ video {
   padding-left: 3rem;
 }
 
+.pl-\[30px\] {
+  padding-left: 30px;
+}
+
 .pr-4 {
   padding-right: 1rem;
 }
@@ -2141,18 +2143,6 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pl-\[20px\] {
-  padding-left: 20px;
-}
-
-.pl-\[40px\] {
-  padding-left: 40px;
-}
-
-.pl-\[30px\] {
-  padding-left: 30px;
 }
 
 .text-left {
@@ -2580,12 +2570,6 @@ video {
 
 .opacity-\[0\.03\] {
   opacity: 0.03;
-}
-
-.shadow {
-  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-2xl {
@@ -3365,6 +3349,10 @@ main code {
 
   .md\:h-auto {
     height: auto;
+  }
+
+  .md\:h-80 {
+    height: 20rem;
   }
 
   .md\:w-1\/3 {
